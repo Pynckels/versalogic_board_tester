@@ -2,7 +2,7 @@
 
 *Copyright (c) 2011-2025 Filip Pynckels & Robin Pynckels*
 
-This project contains software, hardware designs, and documentation. Each part is licensed under terms appropriate to its nature.
+This project contains software, hardware designs, and documentation. Each part is licensed under terms appropriate to its nature. You are free to use, modify, and distribute each component under its respective license terms.
 
 ## Hardware Designs
 
@@ -22,10 +22,3 @@ The written documentation, guides, and non-code instructional materials are lice
 
 See [CC-NC-SA](licenses/CC-NC-SA.txt) for the full text.
 
-## Summary
-
-- **Software** → MIT License
-- **Hardware** → CERN-OHL-S v2.0
-- **Documentation** → CC-NC-SA 4.0
-
-You are free to use, modify, and distribute each component under its respective license terms.
