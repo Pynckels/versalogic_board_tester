@@ -1,0 +1,773 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {},
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {},
+      "track_widths": [],
+      "via_dimensions": []
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "footprint_filter": "warning",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "warning",
+      "single_global_label": "warning",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "VersaLogic_Board_Tester.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 4
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": "\t",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "TSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": ""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": true,
+      "name": "",
+      "sort_asc": true,
+      "sort_field": "Value"
+    },
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "kicad-embed://Pynckels.kicad_wks",
+    "plot_directory": "",
+    "space_save_all_events": true,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4",
+      "Root"
+    ],
+    [
+      "b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20",
+      "Power Supply"
+    ],
+    [
+      "1f791eb9-4676-4703-9abb-c24cf4545191",
+      "Board Connector"
+    ],
+    [
+      "86c8382c-3570-45bc-95ce-4e153d69ad64",
+      "Controller"
+    ],
+    [
+      "495d6ae2-9683-42e7-b6ec-7e013fbfc3d9",
+      "Shift-in Floating"
+    ],
+    [
+      "6007366f-36c0-43ad-abe8-14945e79cd13",
+      "Shift-in Signal"
+    ],
+    [
+      "008afea6-305a-4126-a59c-97955da029ac",
+      "Direction"
+    ],
+    [
+      "0e6fd212-2ed8-40ca-ae66-7ad4dad8c736",
+      "Shift-out Signal"
+    ],
+    [
+      "eabf6e7e-a825-4e60-a6e7-816a5077065d",
+      "Floating Signal Tester"
+    ],
+    [
+      "adda023d-d1ed-43b8-a853-bfe5f4e68804",
+      "Signal Setter-Getter"
+    ],
+    [
+      "a4b29a9a-affc-4e44-a7f1-6e60e8968ddf",
+      "Window Comp 4"
+    ],
+    [
+      "887db0cc-1743-4b8c-85ac-697e5d4da16e",
+      "Window Comp 5"
+    ],
+    [
+      "fd378ad1-e0f5-450f-8345-fa5f51efa0ce",
+      "Window Comp 6"
+    ],
+    [
+      "3755467d-eb83-425b-bac1-482fbc841b25",
+      "Window Comp 7"
+    ],
+    [
+      "0e04c439-dbf6-4be1-be18-951f01b68aaa",
+      "Window Comp 8"
+    ],
+    [
+      "bd849e59-7d4c-42de-8978-65f88e17325a",
+      "Window Comp 9"
+    ],
+    [
+      "a40acb2b-a498-426c-af1c-524393d3ea52",
+      "Window Comp 10"
+    ],
+    [
+      "49c07a3d-1dae-49b6-a93d-ebe6a781cfbb",
+      "Window Comp 11"
+    ],
+    [
+      "5ca0e6cf-522e-403d-af48-7f1bd19e43c8",
+      "Window Comp 12"
+    ],
+    [
+      "9884f928-33fd-4e88-989f-9096a002be8e",
+      "Window Comp 13"
+    ],
+    [
+      "3e6f7e36-c09d-4e78-9a65-4be09ce3a023",
+      "Window Comp 14"
+    ],
+    [
+      "fe3329a6-015e-452b-bbd2-402bbee2c931",
+      "Window Comp 15"
+    ],
+    [
+      "8e59e12f-a423-4381-816b-baae6515bcc0",
+      "Window Comp 16"
+    ],
+    [
+      "287cde96-9f11-46c1-9c08-204ad2954d25",
+      "Window Comp 17"
+    ],
+    [
+      "15bd9cdf-04e8-4d93-b187-3d074367f24e",
+      "Window Comp 18"
+    ],
+    [
+      "f34a93ea-1ac8-41ca-904b-75220fd9748f",
+      "Window Comp 19"
+    ],
+    [
+      "0c1226dd-f591-490f-bafc-4c9976122712",
+      "Window Comp 20"
+    ],
+    [
+      "90423eb5-8958-40f1-8812-cfbc344a1e4c",
+      "Window Comp 21"
+    ],
+    [
+      "92150970-4cc9-424c-b116-85352ddbd7f5",
+      "Window Comp 22"
+    ],
+    [
+      "e449b973-db83-41c3-860d-ac053c280417",
+      "Window Comp 23"
+    ],
+    [
+      "534a7093-a3fd-45c1-b648-2637c7dd6384",
+      "Window Comp 24"
+    ],
+    [
+      "deaa96dd-6924-47ec-9ed6-b4b85a9a1d5c",
+      "Window Comp 25"
+    ],
+    [
+      "28d4f14a-677c-4713-985e-5bfc3426cfd7",
+      "Window Comp 26"
+    ],
+    [
+      "167b3e59-cca7-480d-8b53-3514f8c0ce30",
+      "Window Comp 27"
+    ],
+    [
+      "294f2b95-f8c5-4548-bea3-881f915ff5eb",
+      "Window Comp 28"
+    ],
+    [
+      "4281a5bd-f555-466e-8c3e-a00fcfa9e6c5",
+      "Window Comp 29"
+    ],
+    [
+      "7dfaca80-21a3-4724-a6b0-fb49fbee9aeb",
+      "Window Comp 30"
+    ],
+    [
+      "4233ed5b-8d50-41bb-b51d-7204e9b3c7a8",
+      "Window Comp 31"
+    ],
+    [
+      "1d3bb0e3-85c0-4139-8e3e-a721a5ef4ff0",
+      "Window Comp 32"
+    ],
+    [
+      "989eb95f-1f56-4870-aa99-661013a99314",
+      "Window Comp 33"
+    ],
+    [
+      "da0f2ec1-d0bd-4dbe-b869-c6ffd36ce08d",
+      "Window Comp 34"
+    ],
+    [
+      "4cb89288-066b-465a-83a8-64d982be453f",
+      "Window Comp 35"
+    ],
+    [
+      "892c455a-db6e-4ee2-babc-99586ebe97e4",
+      "Window Comp 36"
+    ],
+    [
+      "dc09f934-09e8-489f-9518-2736f0ae5b46",
+      "Window Comp 37"
+    ],
+    [
+      "0b0b3a3c-2f78-4c44-9920-9da573ae9093",
+      "Window Comp 38"
+    ],
+    [
+      "f25c83c8-e301-449e-bb1a-973184ffbddb",
+      "Window Comp 39"
+    ],
+    [
+      "38784fad-1447-4c06-8568-176400c695c5",
+      "Window Comp 40"
+    ],
+    [
+      "4952b94b-3140-47bd-bdfd-ad9d6be4da95",
+      "Setter-Getter 4"
+    ],
+    [
+      "d9ea115c-dc86-426c-adc8-f638fd9fc282",
+      "Setter-Getter 5"
+    ],
+    [
+      "c9509fe4-7c49-4790-bb03-a62377fd3c73",
+      "Setter-Getter 21"
+    ],
+    [
+      "e8704d45-f459-4cd1-a092-451e0c13349b",
+      "Setter-Getter 22"
+    ],
+    [
+      "a15ad43f-707c-4e30-ae9f-d2ade155753d",
+      "Setter-Getter 23"
+    ],
+    [
+      "6134b899-0edb-4899-acff-5818f2f0d37a",
+      "Setter-Getter 24"
+    ],
+    [
+      "c6d4a38e-dffb-40e2-ae5e-0b27f6273792",
+      "Setter-Getter 25"
+    ],
+    [
+      "17c2b7aa-e4c8-4f87-bf76-da4240579f4b",
+      "Setter-Getter 26"
+    ],
+    [
+      "7cbca8dc-ccee-4306-b22c-7b361ecd0acf",
+      "Setter-Getter 27"
+    ],
+    [
+      "eda70919-7952-4539-acdc-12b531a2eff4",
+      "Setter-Getter 28"
+    ],
+    [
+      "ca62c608-3c73-414c-ba97-6000e0ac757f",
+      "Setter-Getter 29"
+    ],
+    [
+      "0543037e-2963-484e-88a6-483f5aaf36c1",
+      "Setter-Getter 30"
+    ],
+    [
+      "cbf15f51-4698-4859-99a7-bc119e56ca30",
+      "Setter-Getter 31"
+    ],
+    [
+      "8768f7bc-6e7c-4719-8b5b-3ee931c4d1e5",
+      "Setter-Getter 32"
+    ],
+    [
+      "0fd990ba-b6ca-4b68-a2c1-2f1d715cbff7",
+      "Setter-Getter 33"
+    ],
+    [
+      "bfbefbd9-1b0b-4f8c-9b94-aeb1d5136c1e",
+      "Setter-Getter 34"
+    ],
+    [
+      "cde4c8e5-6f34-41a3-9ac1-6e0e9be528e6",
+      "Setter-Getter 35"
+    ],
+    [
+      "02c3c42a-ea87-4479-a837-6b6af78e0d91",
+      "Setter-Getter 36"
+    ],
+    [
+      "74f339b1-d28a-48ed-8202-be6d6f5fd7ba",
+      "Setter-Getter 37"
+    ],
+    [
+      "4145cdf8-8079-4b06-b949-c94a78a7ea74",
+      "Setter-Getter 38"
+    ],
+    [
+      "5bb60534-29a6-499e-9b95-9ad5d9d76634",
+      "Setter-Getter 39"
+    ],
+    [
+      "22caf7b9-015a-4cb4-ad41-221c447c2f47",
+      "Setter-Getter 40"
+    ],
+    [
+      "882740a2-5698-45b2-954e-58bfc43fe53f",
+      "Setter-Getter 6"
+    ],
+    [
+      "42954e24-fb77-4898-ad8e-c6d844935827",
+      "Setter-Getter 7"
+    ],
+    [
+      "63e37e4c-9320-455e-bf83-3c2c06897021",
+      "Setter-Getter 8"
+    ],
+    [
+      "02079730-8b0c-426f-b446-6a44d60c82bb",
+      "Setter-Getter 9"
+    ],
+    [
+      "95dcbc35-ea40-441c-8123-9d9d0758450f",
+      "Setter-Getter 10"
+    ],
+    [
+      "70c0583e-a545-45a4-bb9c-f43034600802",
+      "Setter-Getter 11"
+    ],
+    [
+      "1968431e-5887-4c3d-9d3c-9c0d73e220c2",
+      "Setter-Getter 12"
+    ],
+    [
+      "2f62b370-e386-45e9-b4f2-a79cffc1a96f",
+      "Setter-Getter 13"
+    ],
+    [
+      "a43c2d08-6f2d-493b-a8a8-eb7a830fc58c",
+      "Setter-Getter 14"
+    ],
+    [
+      "5011e741-818d-4351-ae0c-d9e990c026ac",
+      "Setter-Getter 15"
+    ],
+    [
+      "00715f96-8da8-41cf-b27f-a3b9030439c2",
+      "Setter-Getter 16"
+    ],
+    [
+      "bcc69098-711e-4187-b333-3dcf91b8ab95",
+      "Setter-Getter 17"
+    ],
+    [
+      "ea460f17-269f-4e02-b6bb-0cfd1a70ebcb",
+      "Setter-Getter 18"
+    ],
+    [
+      "a8ed9366-17a2-46c7-bbea-79176aef854e",
+      "Setter-Getter 19"
+    ],
+    [
+      "9d50ac54-881e-40cb-8fc7-1188ad31ec3a",
+      "Setter-Getter 20"
+    ]
+  ],
+  "text_variables": {}
+}

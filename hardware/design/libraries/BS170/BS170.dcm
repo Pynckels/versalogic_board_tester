@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BS170
+D N-channel JFET,BF245A 2mA 30V,BP
+K
+F https://www.onsemi.com/pub/Collateral/MMBF170-D.PDF
+$ENDCMP
+#
+#End Doc Library

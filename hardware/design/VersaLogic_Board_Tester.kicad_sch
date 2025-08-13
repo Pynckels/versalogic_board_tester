@@ -1,0 +1,2022 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4")
+	(paper "A5")
+	(title_block
+		(title "VersaLogic board tester")
+		(date "2025-08-13")
+		(rev "1.0.alpha")
+		(comment 1 "Copyright (c) 2025 by Filip Pynckels & Robin Pynckels")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 158.75 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a19561e-6f44-4b45-8f2f-54e4cfb9ad28")
+	)
+	(wire
+		(pts
+			(xy 50.8 48.26) (xy 72.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0130e42a-df0d-46c1-885b-74cc04ebc098")
+	)
+	(wire
+		(pts
+			(xy 69.85 58.42) (xy 74.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02855ddc-d3bf-4614-9248-7c4b1220b108")
+	)
+	(bus
+		(pts
+			(xy 153.67 76.2) (xy 158.75 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04fd9326-e838-4f46-84da-5bc264b33742")
+	)
+	(wire
+		(pts
+			(xy 50.8 62.23) (xy 66.04 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05579dc1-6e12-4a50-909d-9324691caaba")
+	)
+	(wire
+		(pts
+			(xy 59.69 91.44) (xy 74.93 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ece993-0eba-4d33-9dd9-79d60a4ce102")
+	)
+	(wire
+		(pts
+			(xy 72.39 53.34) (xy 74.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8cb8ad-b23e-4fb7-9a83-42ca1a60b18c")
+	)
+	(bus
+		(pts
+			(xy 101.6 93.98) (xy 106.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efea288-6bf9-420d-b5ba-aaf42c3adcfc")
+	)
+	(wire
+		(pts
+			(xy 67.31 63.5) (xy 67.31 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc76218-10d8-4686-a1c9-06f000d3b7b1")
+	)
+	(wire
+		(pts
+			(xy 60.96 88.9) (xy 74.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1487f797-b11d-46e8-a4f4-945821c1bad3")
+	)
+	(wire
+		(pts
+			(xy 50.8 83.82) (xy 55.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b09c30e-4451-4697-a516-6b471c9cf1dd")
+	)
+	(wire
+		(pts
+			(xy 67.31 58.42) (xy 50.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b235bca-9317-40e2-a7aa-d7ce529ebbd0")
+	)
+	(wire
+		(pts
+			(xy 60.96 73.66) (xy 60.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e80a664-b6fe-4362-bee9-4eae8d65c992")
+	)
+	(bus
+		(pts
+			(xy 101.6 76.2) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23087e4a-9937-47ad-b235-79800c394df3")
+	)
+	(wire
+		(pts
+			(xy 55.88 83.82) (xy 55.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24068831-6d1f-40ca-af93-68e0c38aa6c6")
+	)
+	(bus
+		(pts
+			(xy 153.67 40.64) (xy 158.75 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b90fb0-bd79-432e-b05e-37882c3e7802")
+	)
+	(bus
+		(pts
+			(xy 106.68 78.74) (xy 111.76 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27541351-27cc-48f9-918b-fd958aae716c")
+	)
+	(wire
+		(pts
+			(xy 50.8 67.31) (xy 63.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278782a1-9909-4fa2-81ae-8534c1478e51")
+	)
+	(wire
+		(pts
+			(xy 57.15 96.52) (xy 74.93 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39aaa1b6-bc68-4de0-af9e-aca96ce66eb6")
+	)
+	(wire
+		(pts
+			(xy 62.23 69.85) (xy 62.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0e33cc-580e-4220-a104-3830c8d2b708")
+	)
+	(wire
+		(pts
+			(xy 50.8 41.91) (xy 74.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491ad1f5-23fe-4426-89a5-85ceab8fd87d")
+	)
+	(bus
+		(pts
+			(xy 111.76 73.66) (xy 106.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545baa31-cc41-476b-a9ba-0a3b8460b9a1")
+	)
+	(bus
+		(pts
+			(xy 106.68 58.42) (xy 106.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5553e792-644e-4ee0-8810-e5ab250bcc46")
+	)
+	(wire
+		(pts
+			(xy 66.04 62.23) (xy 66.04 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5565924f-0810-4551-acb2-58808ce300d2")
+	)
+	(wire
+		(pts
+			(xy 50.8 53.34) (xy 69.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7139ee-9d93-435c-9f59-7d152cf16d5a")
+	)
+	(wire
+		(pts
+			(xy 72.39 48.26) (xy 72.39 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfe907e-2134-484f-a629-362481af1d92")
+	)
+	(wire
+		(pts
+			(xy 57.15 81.28) (xy 57.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3d39ea-e4b7-43cd-a712-8a15c494633f")
+	)
+	(wire
+		(pts
+			(xy 50.8 76.2) (xy 59.69 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6080b0ae-c0d7-4bc3-8a1d-e0c2b3f3bcea")
+	)
+	(wire
+		(pts
+			(xy 68.58 60.96) (xy 68.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621a70ae-0b0f-4f05-92d7-009283a51572")
+	)
+	(wire
+		(pts
+			(xy 50.8 64.77) (xy 64.77 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6632badb-563b-4311-bbcf-83dfc5a04392")
+	)
+	(wire
+		(pts
+			(xy 50.8 78.74) (xy 58.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6706c81f-d6ad-46c6-9d23-ccc1a35c7127")
+	)
+	(wire
+		(pts
+			(xy 50.8 81.28) (xy 57.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c677fc-f086-4578-bc24-4b9608611335")
+	)
+	(bus
+		(pts
+			(xy 158.75 40.64) (xy 158.75 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696ced29-322d-46f8-a189-1cc9cd74adb2")
+	)
+	(bus
+		(pts
+			(xy 106.68 78.74) (xy 106.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6d8c37-8c9a-43a7-8b25-a5d6d07d0872")
+	)
+	(wire
+		(pts
+			(xy 58.42 93.98) (xy 74.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702cc7ef-0aac-4a63-80b1-955c074da698")
+	)
+	(wire
+		(pts
+			(xy 50.8 36.83) (xy 74.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781cee9d-4464-4f52-a84f-2de5a3450ffc")
+	)
+	(wire
+		(pts
+			(xy 54.61 107.95) (xy 73.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788272e0-a17b-48b0-be9c-899e985cc12e")
+	)
+	(wire
+		(pts
+			(xy 55.88 99.06) (xy 74.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ae3a32-514e-4afa-9fad-3d305fbee0b6")
+	)
+	(wire
+		(pts
+			(xy 50.8 90.17) (xy 53.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79924090-40dc-4df6-9d18-bd870d0f18db")
+	)
+	(wire
+		(pts
+			(xy 71.12 50.8) (xy 50.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1dfceb-f61d-404e-b0bc-51029d28933b")
+	)
+	(wire
+		(pts
+			(xy 50.8 44.45) (xy 74.93 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c57b8ac-f5e7-4460-8af9-7b52df91513e")
+	)
+	(wire
+		(pts
+			(xy 68.58 55.88) (xy 50.8 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843f03a7-2b33-44d0-9ca1-c541f1503cdd")
+	)
+	(wire
+		(pts
+			(xy 63.5 67.31) (xy 63.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "896beef2-35fa-4fc8-af48-d6471fde349b")
+	)
+	(wire
+		(pts
+			(xy 59.69 76.2) (xy 59.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9294c46b-ff41-45a3-993f-50b136211fa4")
+	)
+	(wire
+		(pts
+			(xy 63.5 77.47) (xy 74.93 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93259808-c157-431c-a718-74fed0f9ae02")
+	)
+	(wire
+		(pts
+			(xy 53.34 90.17) (xy 53.34 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "983a89af-b902-4022-9598-ac1df45685e6")
+	)
+	(wire
+		(pts
+			(xy 64.77 74.93) (xy 74.93 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bca4e61-9b71-4598-bf2c-8f6466dbb2d6")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 74.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56570ed-8929-4501-9706-b4c8cdd077d2")
+	)
+	(wire
+		(pts
+			(xy 74.93 55.88) (xy 71.12 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e89416-0de3-4c5c-842e-0ef10995b90e")
+	)
+	(wire
+		(pts
+			(xy 66.04 72.39) (xy 74.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9dfc91f-08c9-42a6-9124-6bd040b3945d")
+	)
+	(wire
+		(pts
+			(xy 50.8 87.63) (xy 54.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa838f5-acf1-4a15-8afa-3b396ac3589b")
+	)
+	(wire
+		(pts
+			(xy 69.85 53.34) (xy 69.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ae3fca-6a7c-414f-96a7-21e41c9d12b5")
+	)
+	(bus
+		(pts
+			(xy 101.6 40.64) (xy 111.76 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f6f594-0e2d-45fb-aebf-d8ff1ce4b366")
+	)
+	(wire
+		(pts
+			(xy 62.23 80.01) (xy 74.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba14bce6-4ec9-47ca-8d37-8015a25d2963")
+	)
+	(wire
+		(pts
+			(xy 74.93 60.96) (xy 68.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b2188c-30f3-44c5-b3dc-68c0d536e064")
+	)
+	(wire
+		(pts
+			(xy 74.93 63.5) (xy 67.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9943231-886b-4b21-9d06-5ec03e061225")
+	)
+	(wire
+		(pts
+			(xy 71.12 55.88) (xy 71.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a6db70-e368-47a1-8ddb-3b941469003c")
+	)
+	(wire
+		(pts
+			(xy 71.12 113.03) (xy 71.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b11b5b-72ea-4e84-a1fc-fc1af452eea2")
+	)
+	(wire
+		(pts
+			(xy 58.42 78.74) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb022f3-0ac5-4edf-9ac6-edac24bf43cc")
+	)
+	(wire
+		(pts
+			(xy 50.8 69.85) (xy 62.23 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4548cf4-cc94-4ae5-8a6b-7d00ca51b9ef")
+	)
+	(bus
+		(pts
+			(xy 158.75 58.42) (xy 163.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55905f6-268d-405d-917a-84f14589d27d")
+	)
+	(bus
+		(pts
+			(xy 158.75 58.42) (xy 158.75 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e0657f-052e-4056-ac70-15bd2378bb87")
+	)
+	(bus
+		(pts
+			(xy 101.6 58.42) (xy 106.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e795132c-ccac-4931-bee1-362537779ef0")
+	)
+	(wire
+		(pts
+			(xy 64.77 64.77) (xy 64.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab1302f-3a21-4f66-9896-9bbb8f1f78fa")
+	)
+	(wire
+		(pts
+			(xy 53.34 110.49) (xy 73.66 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec644dc1-26e0-4852-9642-e5f4ad1d04cb")
+	)
+	(wire
+		(pts
+			(xy 50.8 73.66) (xy 60.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eefdbca6-6e8a-4441-8514-e0005f59f55d")
+	)
+	(wire
+		(pts
+			(xy 54.61 87.63) (xy 54.61 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93b5f1e-33fa-46bf-9e79-d243f141907f")
+	)
+	(wire
+		(pts
+			(xy 71.12 113.03) (xy 73.66 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f96ca6a9-109e-4e0b-86e2-81d9f6518192")
+	)
+	(label "Tx"
+		(at 69.85 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "1585d898-4d46-476a-b689-2290cb572d1e")
+	)
+	(label "Rx"
+		(at 69.85 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8510313-f390-4be5-af80-acab965ede60")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88c548e6-15c9-4941-b929-1141d2886bf1")
+		(property "Reference" "#PWR0101"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33a17288-d902-4338-b1cb-fb11c43530ee")
+		)
+		(instances
+			(project "VersaLogic_Board_Tester"
+				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 78.74 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f43ce9e0-f870-411e-8b7f-353696f92acf")
+		(property "Reference" "J101"
+			(at 78.74 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UART"
+			(at 81.534 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 78.74 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 78.74 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "82e8d821-4797-4a72-accb-cccf74de5008")
+		)
+		(pin "2"
+			(uuid "c46331a9-2d31-4eca-82f2-4b4402565503")
+		)
+		(pin "1"
+			(uuid "cfd6c622-ab92-41dd-82b6-1385c24b0cf3")
+		)
+		(instances
+			(project ""
+				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4"
+					(reference "J101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 50.8)
+		(size 26.67 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "008afea6-305a-4126-a59c-97955da029ac")
+		(property "Sheetname" "Direction"
+			(at 74.93 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Shift_Out.kicad_sch"
+			(at 74.93 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "~{SRCLR}" input
+			(at 74.93 63.5 180)
+			(uuid "b65e27e6-da93-4890-bb61-4f809bb3b5ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RCLK" input
+			(at 74.93 58.42 180)
+			(uuid "295fd16e-4e91-4a4f-9947-d0542b73b2de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{OE}" input
+			(at 74.93 55.88 180)
+			(uuid "ca07f712-9941-41e7-9df1-f4075449ac1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SRCLK" input
+			(at 74.93 60.96 180)
+			(uuid "89e911ff-d68b-457c-bf1d-e39e0b996d0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SER" input
+			(at 74.93 53.34 180)
+			(uuid "cd1bb2c5-87c5-493a-a984-28c4b9b5d2a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sig_5V_[4..40]" tri_state
+			(at 101.6 58.42 0)
+			(uuid "f5f7a251-76d1-4898-9cfc-1ac03660f26d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "VersaLogic_Board_Tester"
+				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 86.36)
+		(size 26.67 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e6fd212-2ed8-40ca-ae66-7ad4dad8c736")
+		(property "Sheetname" "Shift-out Signal"
+			(at 74.93 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Shift_Out.kicad_sch"
+			(at 74.93 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "~{SRCLR}" input
+			(at 74.93 99.06 180)
+			(uuid "c7491170-d899-4f70-828c-28bf3df6342a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RCLK" input
+			(at 74.93 93.98 180)
+			(uuid "8541c415-d978-42f3-93a3-c855157814c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{OE}" input
+			(at 74.93 91.44 180)
+			(uuid "71fafc01-1c4e-4049-b859-5a1f3c9b5b2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SRCLK" input
+			(at 74.93 96.52 180)
+			(uuid "db8adb7a-cfd5-444c-a4c6-71912a77b47a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SER" input
+			(at 74.93 88.9 180)
+			(uuid "d4be951d-bc3f-4c2d-9ec8-86848717e1de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sig_5V_[4..40]" tri_state
+			(at 101.6 93.98 0)
+			(uuid "c95eb0db-2982-4121-ba5a-ff70d1f3df00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "VersaLogic_Board_Tester"
+				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 55.88)
+		(size 21.59 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f791eb9-4676-4703-9abb-c24cf4545191")
+		(property "Sheetname" "Board Connector"
+			(at 163.83 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Board_Connector.kicad_sch"
+			(at 163.83 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Sig_6V-12V_[4..40]" tri_state
+			(at 163.83 58.42 180)
+			(uuid "c5564a6d-a173-42f1-af42-28693ddaaa1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VersaLogic_Board_Tester"
+				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 34.29)
+		(size 26.67 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "495d6ae2-9683-42e7-b6ec-7e013fbfc3d9")
+		(property "Sheetname" "Shift-in Floating"
+			(at 74.93 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Shift_In.kicad_sch"
+			(at 74.93 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "SER" output
+			(at 74.93 36.83 180)
+			(uuid "166ab272-b53d-4124-a43b-1af29a4839b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_INH" input
+			(at 74.93 44.45 180)
+			(uuid "a98cc3fe-f3c0-4c0f-9c01-db117bea4b9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK" input
+			(at 74.93 41.91 180)
+			(uuid "81138f9d-031b-4d2b-920a-80c5f3518b69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SH{slash}~{LD}" input
+			(at 74.93 39.37 180)
+			(uuid "fd93ef42-0aa3-481d-8d81-fa95ecca34cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sig_5V_[4..40]" tri_state
+			(at 101.6 40.64 0)
+			(uuid "015824de-8f8d-44aa-8319-be2ae51d36a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "VersaLogic_Board_Tester"
+				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 69.85)
+		(size 26.67 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6007366f-36c0-43ad-abe8-14945e79cd13")
+		(property "Sheetname" "Shift-in Signal"
+			(at 74.93 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Shift_In.kicad_sch"
+			(at 74.93 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "CLK_INH" input
+			(at 74.93 80.01 180)
+			(uuid "50d94f8b-bab8-41a1-a701-f83d0d3d84ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SER" output
+			(at 74.93 72.39 180)
+			(uuid "3423f1ca-0e8a-454f-9529-8f815195fac1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK" input
+			(at 74.93 77.47 180)
+			(uuid "e9409f07-8dbe-4ea2-b2e1-dc76c1a40fd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SH{slash}~{LD}" input
+			(at 74.93 74.93 180)
+			(uuid "409fa851-e9a7-4cab-b720-dacaf6580262")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sig_5V_[4..40]" tri_state
+			(at 101.6 76.2 0)
+			(uuid "4852234e-9b6d-4d10-8612-9e8c39a83357")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "VersaLogic_Board_Tester"
+				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 34.29)
+		(size 24.13 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "86c8382c-3570-45bc-95ce-4e153d69ad64")
+		(property "Sheetname" "Controller"
+			(at 26.67 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Controller.kicad_sch"
+			(at 26.67 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "UART-RX" input
+			(at 50.8 87.63 0)
+			(uuid "fcd4bc4e-8ac7-4817-aa79-799857d300bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART-TX" output
+			(at 50.8 90.17 0)
+			(uuid "aa6bae5e-9ad6-41f6-8109-48ac81cb42d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FLOATING-SER" input
+			(at 50.8 36.83 0)
+			(uuid "c0df84a6-06bb-46bc-b7f5-aa7acbeab7ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FLOATING-CLK_INH" output
+			(at 50.8 44.45 0)
+			(uuid "37e9fff1-7aa0-4b36-bfa0-765f25bcbe53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIGNAL-OUT-~{SRCLR}" output
+			(at 50.8 83.82 0)
+			(uuid "9432a72e-13ec-48f0-a7d0-8c5a9a1f1dbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIGNAL-IN-SER" input
+			(at 50.8 62.23 0)
+			(uuid "110ba5aa-39f0-4cde-bc8c-e2a59e28b0e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FLOATING-SH{slash}~{LD}" output
+			(at 50.8 39.37 0)
+			(uuid "5054a7aa-f82c-45f2-84e4-382a0f96a508")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIGNAL-OUT-SER" input
+			(at 50.8 73.66 0)
+			(uuid "3769072e-ab33-494d-ae01-2e122d836288")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIGNAL-IN-CLK_INH" output
+			(at 50.8 69.85 0)
+			(uuid "e822ed5c-ff35-4203-97e7-23f6bdb85909")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIGNAL-IN-CLK" output
+			(at 50.8 67.31 0)
+			(uuid "a82848d2-df6a-44e3-9180-62e9a6db906b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIGNAL-OUT-~{OE}" output
+			(at 50.8 76.2 0)
+			(uuid "76eb6142-000e-412e-a1da-d4877f9c4748")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIGNAL-OUT-SRCLK" output
+			(at 50.8 81.28 0)
+			(uuid "a0dc8e94-55c5-4781-86cb-0d843dc41bc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIGNAL-IN-SH{slash}~{LD}" output
+			(at 50.8 64.77 0)
+			(uuid "b09670e8-7265-4615-9cce-ebc5ad3e908a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FLOATING-CLK" output
+			(at 50.8 41.91 0)
+			(uuid "a6bf15e5-e98a-4eb5-b192-3c0993a423d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIGNAL-OUT-RCLK" output
+			(at 50.8 78.74 0)
+			(uuid "ee4ebf97-9c95-4b11-8b5a-2666b10f2029")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIRECTION-~{SRCLR}" output
+			(at 50.8 58.42 0)
+			(uuid "309009a0-8242-4eaf-ae8d-9b0637dcc5b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIRECTION-SER" input
+			(at 50.8 48.26 0)
+			(uuid "9318357f-c9a7-4133-9fb6-7c2786cced4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIRECTION-RCLK" output
+			(at 50.8 53.34 0)
+			(uuid "86c7229f-ce6c-4ccc-9d20-8b8d1bf5c9dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIRECTION-~{OE}" output
+			(at 50.8 50.8 0)
+			(uuid "263dc47c-e9bc-46c4-9895-3e44bb28a416")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIRECTION-SRCLK" output
+			(at 50.8 55.88 0)
+			(uuid "d2a7d94b-6c3b-4d60-adde-292ad7f9b752")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "VersaLogic_Board_Tester"
+				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 71.12)
+		(size 41.91 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "adda023d-d1ed-43b8-a853-bfe5f4e68804")
+		(property "Sheetname" "Signal Setter-Getter"
+			(at 111.76 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Signal_Setter-Getter.kicad_sch"
+			(at 111.76 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Sig_In_5V_[4..40]" tri_state
+			(at 111.76 76.2 180)
+			(uuid "71ec5ec0-2b73-4370-b4f3-345f4d82fbb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sig_6V-12V_[4..40]" tri_state
+			(at 153.67 76.2 0)
+			(uuid "06da740c-6331-4beb-900b-bed68bd93254")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Sig_Out_5V_[4..40]" tri_state
+			(at 111.76 78.74 180)
+			(uuid "8534bc1c-daf5-4f00-9223-760cb1bc2d37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Dir_5V_[4..40]" tri_state
+			(at 111.76 73.66 180)
+			(uuid "feb142e8-a46c-4cce-bd57-430370fd0b9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VersaLogic_Board_Tester"
+				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 24.13)
+		(size 24.13 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20")
+		(property "Sheetname" "Power Supply"
+			(at 26.67 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply.kicad_sch"
+			(at 26.67 28.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VersaLogic_Board_Tester"
+				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 38.1)
+		(size 41.91 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eabf6e7e-a825-4e60-a6e7-816a5077065d")
+		(property "Sheetname" "Floating Signal Tester"
+			(at 111.76 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Floating_Signal_Tester.kicad_sch"
+			(at 111.76 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Sig_5V_[4..40]" tri_state
+			(at 111.76 40.64 180)
+			(uuid "858d6c75-18b4-4421-a9c5-283e663ffbe0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sig_6V-12V_[4..40]" tri_state
+			(at 153.67 40.64 0)
+			(uuid "ca787ac4-2bd0-42c7-9590-57ec02111893")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "VersaLogic_Board_Tester"
+				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "Pynckels.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WDfBq0QAHYYSh8wsRsMatJdZ3kPkupWomcInsL79s2XZVbxYQMLAwMqQQA9AEEAb3lj6nWM
+				yt6+5RXT/rVq054yofVB7s3opFIY5CV+wdmRl/IRmvGMXg/O2Osbyr3G/+12eefeLuAvWkddEJ9Q
+				2ws75XLa9ha+xh9T977Gv/rJzpTL0zOqmBqbONdpqpXRt1DuU77B6lnVrL+Wl6VcuZHM38IZo17u
+				3q/Uc29hO3GWSmHegNjpOJe7ZwRJzTzjs82SmaMUzcBBsJM/dQhUQq2Ervpnbm0noc9dKlNuO4VO
+				zmWnklUluaHz9jNN0gEACEmp41yWIqkZ705xSLF7uREUYdGLerqRS6tWcuIjo/S4nj6eqCNCdLoh
+				GS0EA0ckIZmlGEENTMQxemZ0VuJ+2CAIcqDBcKZIRpK0UBjmoERkCFkHBsJNlLw4P902YsgCmRJr
+				9OZYPABml2xwzWJWadtaJSwm1jpllX9HSyldwDxGqzrSSk6+ixLiWtQTqJ2itZxs4kAx0LKEVXVQ
+				Gci4IYCkq5EUhEdYHyW+4WrQOPdwWEuSOglMLwVdLV6d/BH+CEiPBLjnb6Am0SRm5PyEyYBa1Gjq
+				wxmPYSLziRuX18+XmSi943xC9IH/RM6PZ9+2fJZFm+ID1ho9c5MdrXSqIP6gblQqwHSNzUUCtouW
+				uC2A3nBkO1l85drJtFYbsyyno09DBB71tYj+Z31V|
+			)
+			(checksum "616A7A06D0E36F652BD08AB08962F4A8")
+		)
+	)
+)

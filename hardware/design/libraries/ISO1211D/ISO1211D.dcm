@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ISO1211D
+D Isolated 24-V to 60-V digital input receiver for digital input modules
+K
+F http://www.ti.com/lit/gpn/ISO1211
+$ENDCMP
+#
+#End Doc Library

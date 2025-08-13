@@ -1,0 +1,4 @@
+Sim.Library     ${KIPRJMOD}/libraries/G3VM-41AY1/G3VM-41AY1.spice
+Sim.Name        G3VM-41AY1
+Sim.Device      SUBCKT
+Sim.Pins        1=A 2=K 3=D 4=S

@@ -1,0 +1,4 @@
+Sim.Library     ${KIPRJMOD}/libraries/LM393.spice
+Sim.Name        LM393
+Sim.Device      SUBCKT
+Sim.Pins        1=OUT1 2=IN1- 3=IN1+ 4=VEE 5=IN2+ 6=IN2- 7=OUT2 8=VCC

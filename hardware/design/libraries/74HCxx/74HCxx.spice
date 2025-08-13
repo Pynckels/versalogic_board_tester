@@ -1,0 +1,29 @@
+* 74HC04 Hex Inverter Behavioral Model
+* VDD = 5V, GND = 0V
+
+.subckt 74HC04 A1 Y1 A2 Y2 A3 Y3 A4 Y4 A5 Y5 A6 Y6 VDD GND
+
+* Parameters
+.param tp=5n tr=2n tf=2n
+
+* Inverters
+XINV1 A1 Y1 VDD INV PARAMS: tp=tp tr=tr tf=tf
+XINV2 A2 Y2 VDD INV PARAMS: tp=tp tr=tr tf=tf
+XINV3 A3 Y3 VDD INV PARAMS: tp=tp tr=tr tf=tf
+XINV4 A4 Y4 VDD INV PARAMS: tp=tp tr=tr tf=tf
+XINV5 A5 Y5 VDD INV PARAMS: tp=tp tr=tr tf=tf
+XINV6 A6 Y6 VDD INV PARAMS: tp=tp tr=tr tf=tf
+
+.ends 74HC04
+
+* Inverter subcircuit
+.subckt INV A Y VDD PARAMS: tp=5n tr=2n tf=2n
+*.model logic inverter with delay
+* B1 n1 0 V=V(A)
+* E1 Y 0 VALUE = { VDD * (1 - V(n1)/VDD) } 
+B1 n1 0 V=V(A)
+E1 Y 0 VALUE = { V(VDD)*(1 - V(n1)/V(VDD)) }
+* Add delay using voltage-controlled switch or external delay elements as needed
+* Optional: Add RC load to simulate rise/fall time
+Cload Y 0 5p
+.ends INV

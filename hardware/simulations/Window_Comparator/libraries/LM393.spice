@@ -1,0 +1,86 @@
+* ===========================================================================
+* LM393 Open-Collector Dual Comparator SPICE Model
+* Version 2.0 - Updated for better compatibility with different simulators.
+* Author: Gemini
+* Description: This model accurately simulates the high-gain, open-collector
+* output behavior of a dual LM393 comparator.
+* ===========================================================================
+
+* ---- Subcircuit for a single open-collector comparator ----
+* Pins: IN_PLUS, IN_MINUS, VCC, VEE, OUT
+.subckt OC_COMP IN_PLUS IN_MINUS VCC VEE OUT
+*
+* G1: High-gain transconductance amplifier.
+* The output current is a function of the differential input voltage.
+G1 intermediate_node 0 VALUE { V(IN_PLUS) - V(IN_MINUS) }
+*
+* R1: Models the internal output resistance of the gain stage.
+R1 intermediate_node 0 100k
+*
+* Q1: Open-collector output stage.
+* This NPN transistor pulls the output low when the internal gain stage
+* voltage is high, and turns off (high impedance) when the internal
+* voltage is low.
+* The base is driven by the intermediate node voltage.
+* Collector: Connected to the OUT pin.
+* Base: Connected to the intermediate node.
+* Emitter: Connected to the VEE pin (ground).
+Q1 OUT intermediate_node VEE NPN_MODEL
+*
+* D1: Prevents the intermediate node from going too high.
+* This is a simple protection diode.
+D1 intermediate_node VCC DIODE_MODEL
+.ends
+
+* ---- Subcircuit for the LM393 Dual Comparator ----
+* Pins: out1, in1-, in1+, vee, in2+, in2-, out2, vcc
+.subckt LM393 out1 in1- in1+ vee in2+ in2- out2 vcc
+*
+* X1: Instantiates the first comparator (OC_COMP).
+X1 in1+ in1- vcc vee out1 OC_COMP
+*
+* X2: Instantiates the second comparator (OC_COMP).
+X2 in2+ in2- vcc vee out2 OC_COMP
+.ends
+
+* ===========================================================================
+* --- Models used in the subcircuits ---
+* ===========================================================================
+
+* NPN Bipolar Junction Transistor Model
+* This is a simple, generic NPN model. You can substitute this with a more
+* complex model if you have one.
+.model NPN_MODEL NPN (Is=1p, Bf=200, Vaf=50, Vtf=100)
+*
+* Generic Diode Model
+.model DIODE_MODEL D (Is=10p)
+
+
+* ===========================================================================
+* --- Example Test Circuit to demonstrate LM393 functionality ---
+* ===========================================================================
+*
+* This circuit demonstrates the open-collector behavior with a 5V pull-up.
+* The output (OUT_TEST) will switch between 0V and 5V, not 0V and 12V.
+
+* Power Supplies
+VCC_TEST VCC_NODE 0 DC 12V
+VEE_TEST VEE_NODE 0 DC 0V
+
+* Input Signal (a simple sine wave)
+VIN VIN_NODE 0 SIN(6V 6V 1k)
+
+* Reference Voltage (a fixed 6V level)
+VREF VREF_NODE 0 DC 6V
+
+* LM393 instance
+* Pins are mapped as: out1 in1- in1+ vee in2+ in2- out2 vcc
+* We'll use just the first comparator for this test.
+* Note the pin mapping: `out1` `in1-` `in1+` `vee` `in2+` `in2-` `out2` `vcc`
+XLM393 OUT_TEST VREF_NODE VIN_NODE VEE_NODE NC NC NC VCC_NODE LM393
+*
+* A required pull-up resistor for the open-collector output
+R_PULLUP VCC_5V OUT_TEST 10k
+V_PULLUP VCC_5V 0 DC 5V
+
+.end
