@@ -4131,7 +4131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0104d5d9-c756-498d-a6e0-0fec7fbcab77")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0211"
 			(at 137.16 66.04 0)
 			(effects
 				(font
@@ -4182,7 +4182,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0212")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -4198,7 +4198,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "017dcab5-0ab4-4e7e-af80-d69a6f7e7061")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0215"
 			(at 127 78.74 0)
 			(effects
 				(font
@@ -4249,7 +4249,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0211")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -4265,7 +4265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "109117a0-175a-4c40-9444-3f08a89d67bd")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0217"
 			(at 21.59 111.76 0)
 			(effects
 				(font
@@ -4316,7 +4316,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0201")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -4331,7 +4331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19f18103-f710-47c7-a3a2-ed994efea36b")
-		(property "Reference" "TP207"
+		(property "Reference" "TP204"
 			(at 44.45 115.062 0)
 			(effects
 				(font
@@ -4383,7 +4383,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "TP207")
+					(reference "TP204")
 					(unit 1)
 				)
 			)
@@ -4399,7 +4399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2071def3-1cea-4c3b-8bfc-15710b0802a3")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0218"
 			(at 29.21 111.76 0)
 			(effects
 				(font
@@ -4450,7 +4450,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0203")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -4466,7 +4466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20e887a1-1b95-4ec0-948c-7c0174622173")
-		(property "Reference" "TP206"
+		(property "Reference" "TP208"
 			(at 36.83 120.142 0)
 			(effects
 				(font
@@ -4518,7 +4518,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "TP206")
+					(reference "TP208")
 					(unit 1)
 				)
 			)
@@ -4619,7 +4619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29052d9f-fb8e-49f7-94ba-e8de4300f3b3")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0224"
 			(at 36.83 123.19 0)
 			(effects
 				(font
@@ -4670,7 +4670,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0206")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -4685,7 +4685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36f5dcd7-326d-4ee0-a11c-504ea00b4bb2")
-		(property "Reference" "C207"
+		(property "Reference" "C206"
 			(at 117.602 65.278 0)
 			(effects
 				(font
@@ -4739,7 +4739,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "C207")
+					(reference "C206")
 					(unit 1)
 				)
 			)
@@ -4754,7 +4754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37a1bfe2-9e32-46a6-a9de-4cafdf857708")
-		(property "Reference" "TP203"
+		(property "Reference" "TP202"
 			(at 29.21 115.062 0)
 			(effects
 				(font
@@ -4806,7 +4806,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "TP203")
+					(reference "TP202")
 					(unit 1)
 				)
 			)
@@ -4889,7 +4889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44ec1995-bcef-4e7c-a5e5-b8569641a959")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0221"
 			(at 52.07 111.76 0)
 			(effects
 				(font
@@ -4939,7 +4939,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0208")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -4955,7 +4955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c0056d4-2131-4ac5-a83c-e0795f46e281")
-		(property "Reference" "#FLG0205"
+		(property "Reference" "#FLG0202"
 			(at 175.26 60.325 0)
 			(effects
 				(font
@@ -5006,7 +5006,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#FLG0205")
+					(reference "#FLG0202")
 					(unit 1)
 				)
 			)
@@ -5089,7 +5089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fa12262-9fd1-424e-9f64-8c67f9aac427")
-		(property "Reference" "C208"
+		(property "Reference" "C210"
 			(at 117.602 75.438 0)
 			(effects
 				(font
@@ -5143,7 +5143,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "C208")
+					(reference "C210")
 					(unit 1)
 				)
 			)
@@ -5158,7 +5158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54f06941-a4f3-4c1c-ad20-56a9316f98b2")
-		(property "Reference" "TP208"
+		(property "Reference" "TP205"
 			(at 52.07 115.062 0)
 			(effects
 				(font
@@ -5210,7 +5210,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "TP208")
+					(reference "TP205")
 					(unit 1)
 				)
 			)
@@ -5226,7 +5226,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57b35c18-0668-46ea-b2cc-ee3982bd0707")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR0207"
 			(at 127 62.23 0)
 			(effects
 				(font
@@ -5277,7 +5277,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0210")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -5292,7 +5292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e060e8a-fb0f-4077-bc8c-f98a0c0e20c3")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0209"
 			(at 175.26 62.23 0)
 			(effects
 				(font
@@ -5342,7 +5342,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0221")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -5357,7 +5357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f167ddb-6356-4fc8-9552-8a1d81589686")
-		(property "Reference" "R205"
+		(property "Reference" "R203"
 			(at 180.594 48.514 0)
 			(effects
 				(font
@@ -5410,7 +5410,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "R205")
+					(reference "R203")
 					(unit 1)
 				)
 			)
@@ -5425,7 +5425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60437e0f-e6ec-472f-896c-eedc09c11388")
-		(property "Reference" "C206"
+		(property "Reference" "C202"
 			(at 117.602 48.768 0)
 			(effects
 				(font
@@ -5479,7 +5479,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "C206")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -5494,7 +5494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6668d85d-ae31-405c-8524-8f4697983bbc")
-		(property "Reference" "#FLG0203"
+		(property "Reference" "#FLG0206"
 			(at 73.66 84.455 0)
 			(effects
 				(font
@@ -5545,7 +5545,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#FLG0203")
+					(reference "#FLG0206")
 					(unit 1)
 				)
 			)
@@ -5560,7 +5560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6820fca1-276e-4158-a3bb-b6b3ab060de9")
-		(property "Reference" "R204"
+		(property "Reference" "R205"
 			(at 171.45 68.58 0)
 			(effects
 				(font
@@ -5613,7 +5613,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "R204")
+					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -5696,7 +5696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a34768b-dd2c-450f-92bd-c7806975dd05")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0214"
 			(at 180.34 67.31 0)
 			(effects
 				(font
@@ -5747,7 +5747,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0223")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -5834,7 +5834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70b5a665-0e1d-4fc5-9298-8f63c32b4029")
-		(property "Reference" "TP205"
+		(property "Reference" "TP203"
 			(at 36.83 115.062 0)
 			(effects
 				(font
@@ -5886,7 +5886,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "TP205")
+					(reference "TP203")
 					(unit 1)
 				)
 			)
@@ -5970,7 +5970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8489f769-66b1-41d7-95c0-aa87b2f08790")
-		(property "Reference" "C202"
+		(property "Reference" "C208"
 			(at 79.502 75.438 0)
 			(effects
 				(font
@@ -6024,7 +6024,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "C202")
+					(reference "C208")
 					(unit 1)
 				)
 			)
@@ -6039,7 +6039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a60d41e-829b-4934-8daf-c53aac90afd3")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0208"
 			(at 165.1 62.23 0)
 			(effects
 				(font
@@ -6089,7 +6089,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0218")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -6105,7 +6105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e86d72e-2478-40b2-9db3-7e7e32791c23")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0205"
 			(at 171.45 49.53 0)
 			(effects
 				(font
@@ -6156,7 +6156,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0219")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -6244,7 +6244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f9a8d71-85ef-486e-8075-e70db5b6dd70")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0222"
 			(at 21.59 133.35 0)
 			(effects
 				(font
@@ -6295,7 +6295,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0202")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -6310,7 +6310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fbf74fc-1b4c-4e32-b7c9-5e1d223727b8")
-		(property "Reference" "C210"
+		(property "Reference" "C203"
 			(at 144.272 60.198 0)
 			(effects
 				(font
@@ -6364,7 +6364,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "C210")
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -6379,7 +6379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "904d6202-f32f-4d21-9ddf-dba568629587")
-		(property "Reference" "#FLG0202"
+		(property "Reference" "#FLG0205"
 			(at 73.66 74.295 0)
 			(effects
 				(font
@@ -6430,7 +6430,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#FLG0202")
+					(reference "#FLG0205")
 					(unit 1)
 				)
 			)
@@ -6521,7 +6521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9751e6f5-5200-46bb-a7f8-27c64f9f7ad5")
-		(property "Reference" "R202"
+		(property "Reference" "R204"
 			(at 161.29 68.58 0)
 			(effects
 				(font
@@ -6574,7 +6574,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "R202")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -6660,7 +6660,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9994ec54-3b0d-4986-8c1d-f32faf2aa549")
-		(property "Reference" "#FLG0201"
+		(property "Reference" "#FLG0204"
 			(at 73.66 60.325 0)
 			(effects
 				(font
@@ -6711,7 +6711,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#FLG0201")
+					(reference "#FLG0204")
 					(unit 1)
 				)
 			)
@@ -6727,7 +6727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a0b5ff6-3311-4c7b-a30a-2b65f1d513c6")
-		(property "Reference" "TP202"
+		(property "Reference" "TP206"
 			(at 21.59 120.142 0)
 			(effects
 				(font
@@ -6779,7 +6779,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "TP202")
+					(reference "TP206")
 					(unit 1)
 				)
 			)
@@ -6795,7 +6795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a711641b-9563-4610-beb2-a7c7bb1fa245")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0203"
 			(at 148.59 49.53 0)
 			(effects
 				(font
@@ -6846,7 +6846,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0214")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -6861,7 +6861,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8ec3a42-64a9-47a6-bf4b-219354458e2c")
-		(property "Reference" "C203"
+		(property "Reference" "C205"
 			(at 90.932 65.278 0)
 			(effects
 				(font
@@ -6915,7 +6915,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "C203")
+					(reference "C205")
 					(unit 1)
 				)
 			)
@@ -6930,7 +6930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa4b63c3-8ba6-489c-9b13-0592d01112ad")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0210"
 			(at 184.15 54.61 0)
 			(effects
 				(font
@@ -6980,7 +6980,7 @@
 		(instances
 			(project ""
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0224")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -6996,7 +6996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acf57290-e816-4db3-bff3-ee5c17803fa2")
-		(property "Reference" "#FLG0204"
+		(property "Reference" "#FLG0201"
 			(at 165.1 60.325 0)
 			(effects
 				(font
@@ -7047,7 +7047,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#FLG0204")
+					(reference "#FLG0201")
 					(unit 1)
 				)
 			)
@@ -7063,7 +7063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af853dfa-f44f-4b25-9b1b-9f1304c99de8")
-		(property "Reference" "TP204"
+		(property "Reference" "TP207"
 			(at 29.21 120.142 0)
 			(effects
 				(font
@@ -7115,7 +7115,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "TP204")
+					(reference "TP207")
 					(unit 1)
 				)
 			)
@@ -7131,7 +7131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b459a97c-57dc-4cdb-a2a4-bf6ccfec30d5")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0202"
 			(at 127 45.72 0)
 			(effects
 				(font
@@ -7182,7 +7182,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0209")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -7198,7 +7198,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb83f836-346a-4ce9-a21d-c11798af81d3")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR0216"
 			(at 148.59 78.74 0)
 			(effects
 				(font
@@ -7249,7 +7249,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0215")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -7265,7 +7265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcca9613-a439-40c9-9274-842ad4ff0c67")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0212"
 			(at 161.29 67.31 0)
 			(effects
 				(font
@@ -7316,7 +7316,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0217")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -7332,7 +7332,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd412a4b-c1fa-4705-b11c-0dda139f36b3")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0204"
 			(at 161.29 49.53 0)
 			(effects
 				(font
@@ -7383,7 +7383,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0216")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -7466,7 +7466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce3018ad-b96c-4bea-bd4e-0c9a1a8fc693")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0219"
 			(at 36.83 111.76 0)
 			(effects
 				(font
@@ -7517,7 +7517,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0205")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -7533,7 +7533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0ecbc83-7610-410a-9027-b695b8ac4fee")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0206"
 			(at 180.34 49.53 0)
 			(effects
 				(font
@@ -7584,7 +7584,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0222")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -7600,7 +7600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1010448-acaa-4c65-8ecf-b602cb7f5576")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0213"
 			(at 171.45 67.31 0)
 			(effects
 				(font
@@ -7651,7 +7651,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0220")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -7666,7 +7666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d35a6d81-65ba-4a6e-8470-b9f3334f3439")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0223"
 			(at 29.21 123.19 0)
 			(effects
 				(font
@@ -7716,7 +7716,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0204")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -7731,7 +7731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da2be167-e638-441a-bfe5-dfb6753f13d2")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR0220"
 			(at 44.45 111.76 0)
 			(effects
 				(font
@@ -7781,7 +7781,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0207")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -7796,7 +7796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7503d14-0505-46c2-89be-250ecd1332bd")
-		(property "Reference" "C201"
+		(property "Reference" "C204"
 			(at 79.502 65.278 0)
 			(effects
 				(font
@@ -7850,7 +7850,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "C201")
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -7950,7 +7950,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8f84250-3a28-4fb8-a83c-a8ef54f77249")
-		(property "Reference" "C205"
+		(property "Reference" "C201"
 			(at 117.602 32.258 0)
 			(effects
 				(font
@@ -8004,7 +8004,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "C205")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -8020,7 +8020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecb26c4d-e263-4fab-b0ce-2b506a5b9d80")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0201"
 			(at 148.59 33.02 0)
 			(effects
 				(font
@@ -8071,7 +8071,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#PWR0213")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -8087,7 +8087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f459288b-5514-4f13-b617-718a5f4842ad")
-		(property "Reference" "#FLG0206"
+		(property "Reference" "#FLG0203"
 			(at 184.15 56.515 0)
 			(effects
 				(font
@@ -8138,7 +8138,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "#FLG0206")
+					(reference "#FLG0203")
 					(unit 1)
 				)
 			)
@@ -8153,7 +8153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5b50fc5-8eb8-46ef-963b-579c418f4606")
-		(property "Reference" "C209"
+		(property "Reference" "C207"
 			(at 134.112 70.358 0)
 			(effects
 				(font
@@ -8207,7 +8207,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "C209")
+					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -8294,7 +8294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbbc5b83-43a1-4fa1-8249-ff074b250f2a")
-		(property "Reference" "R203"
+		(property "Reference" "R202"
 			(at 171.704 48.514 0)
 			(effects
 				(font
@@ -8347,7 +8347,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "R203")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -8362,7 +8362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe1f41b4-0aac-4188-b698-9cf960074578")
-		(property "Reference" "C204"
+		(property "Reference" "C209"
 			(at 90.932 75.438 0)
 			(effects
 				(font
@@ -8416,7 +8416,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20"
-					(reference "C204")
+					(reference "C209")
 					(unit 1)
 				)
 			)

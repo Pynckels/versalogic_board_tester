@@ -2226,7 +2226,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fb56679-bdb0-48b0-b592-197f1ae0e765")
-		(property "Reference" "#PWR0404"
+		(property "Reference" "#PWR0406"
 			(at 77.47 134.62 0)
 			(effects
 				(font
@@ -2277,7 +2277,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/86c8382c-3570-45bc-95ce-4e153d69ad64"
-					(reference "#PWR0404")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -2292,7 +2292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31ae1dbb-d8f8-4980-8f52-30e2b7d067bf")
-		(property "Reference" "#PWR0402"
+		(property "Reference" "#PWR0405"
 			(at 40.64 54.61 0)
 			(effects
 				(font
@@ -2343,7 +2343,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/86c8382c-3570-45bc-95ce-4e153d69ad64"
-					(reference "#PWR0402")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -2359,7 +2359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "329f9785-93ef-49f8-8c6a-bf1a64d74fd5")
-		(property "Reference" "C401"
+		(property "Reference" "C402"
 			(at 45.466 35.56 90)
 			(effects
 				(font
@@ -2413,7 +2413,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/86c8382c-3570-45bc-95ce-4e153d69ad64"
-					(reference "C401")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -2429,7 +2429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "486014b6-558a-4cc0-88bb-c6dd988e607a")
-		(property "Reference" "#PWR0406"
+		(property "Reference" "#PWR0403"
 			(at 93.98 29.21 0)
 			(effects
 				(font
@@ -2480,7 +2480,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/86c8382c-3570-45bc-95ce-4e153d69ad64"
-					(reference "#PWR0406")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -2496,7 +2496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "545f9e7b-c1b9-4676-aa9d-7ecd2cf942f8")
-		(property "Reference" "C402"
+		(property "Reference" "C403"
 			(at 45.466 45.72 90)
 			(effects
 				(font
@@ -2550,7 +2550,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/86c8382c-3570-45bc-95ce-4e153d69ad64"
-					(reference "C402")
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -2565,7 +2565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "678f1ba2-6e02-4607-9773-2136484cae6b")
-		(property "Reference" "#PWR0401"
+		(property "Reference" "#PWR0404"
 			(at 40.64 44.45 0)
 			(effects
 				(font
@@ -2616,7 +2616,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/86c8382c-3570-45bc-95ce-4e153d69ad64"
-					(reference "#PWR0401")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -2700,7 +2700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86d4c921-3863-42f0-9a0f-265e2b05ceba")
-		(property "Reference" "#PWR0405"
+		(property "Reference" "#PWR0402"
 			(at 80.01 22.86 0)
 			(effects
 				(font
@@ -2751,7 +2751,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/86c8382c-3570-45bc-95ce-4e153d69ad64"
-					(reference "#PWR0405")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -2767,7 +2767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1d8479f-bd38-4ba3-a948-6c5c8cb4ed79")
-		(property "Reference" "#PWR0403"
+		(property "Reference" "#PWR0401"
 			(at 53.34 22.86 0)
 			(effects
 				(font
@@ -2818,7 +2818,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/86c8382c-3570-45bc-95ce-4e153d69ad64"
-					(reference "#PWR0403")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -2901,7 +2901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f41212cc-3467-4a17-a1b6-4964c9923dd5")
-		(property "Reference" "C403"
+		(property "Reference" "C401"
 			(at 84.836 20.32 90)
 			(effects
 				(font
@@ -2955,7 +2955,7 @@
 		(instances
 			(project "VersaLogic_Board_Tester"
 				(path "/ff8d4a26-8d5e-460f-a4b1-dd16f92e80c4/86c8382c-3570-45bc-95ce-4e153d69ad64"
-					(reference "C403")
+					(reference "C401")
 					(unit 1)
 				)
 			)
