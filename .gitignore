@@ -1,0 +1,8 @@
+
+# KiCad - Ignore directories whose name ends with -backups
+*-backups/
+
+# hardware/simulations/Cascaded_74xx165
+# hardware/simulations/Cascaded_74xx595
+*.gtkw
+*.vcd
