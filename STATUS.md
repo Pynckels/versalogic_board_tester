@@ -39,7 +39,7 @@
 ### Structure
 | Task                        | Status | Result Link |
 |-----------------------------|--------|-------------|
-| Initial development setup   | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/tree/main/software) |
+| Initial development setup   | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/tree/main/software/design) |
 
 ### Proof of Concept (PoC)
 | Module                   | Status | Result Link |
