@@ -15,8 +15,7 @@
 ### Simulations
 | Module            | Status | Result Link |
 |-------------------|--------|-------------|
-| Setter_Getter     | ✅     | [Result 1](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/simulations/Setter_Getter/result/Setter_Getter_Board-to-Controller.png) |
-|                   |        | [Result 2](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/simulations/Setter_Getter/result/Setter_Getter_Controller-to-Board.png) |
+| Setter_Getter     | ✅     | [Result 1](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/simulations/Setter_Getter/result/Setter_Getter_Board-to-Controller.png), [Result 2](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/simulations/Setter_Getter/result/Setter_Getter_Controller-to-Board.png) |
 | Window_Comparator | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/simulations/Window_Comparator/result/Window_Comparator.png) |
 | Cascaded 74xx165  | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/simulations/Cascaded_74xx165/result/tb_cascaded_74xx165.png) |
 | Cascaded 74xx595  | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/simulations/Cascaded_74xx595/result/tb_cascaded_74xx595.png) |
