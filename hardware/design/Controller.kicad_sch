@@ -2052,7 +2052,7 @@
 		(uuid "6cac0ac4-4b1e-47da-b8c0-589eca58b13d")
 	)
 	(hierarchical_label "DIRECTION-SER"
-		(shape input)
+		(shape output)
 		(at 95.25 31.75 0)
 		(effects
 			(font
@@ -2206,7 +2206,7 @@
 		(uuid "f6198c2c-95f9-40d8-9122-8571f645529d")
 	)
 	(hierarchical_label "SIGNAL-OUT-SER"
-		(shape input)
+		(shape output)
 		(at 95.25 54.61 0)
 		(effects
 			(font

@@ -396,7 +396,7 @@
     },
     "net_format_name": "",
     "ngspice": {
-      "fix_include_paths": true,
+      "fix_include_paths": false,
       "meta": {
         "version": 0
       },
