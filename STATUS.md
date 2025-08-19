@@ -20,8 +20,17 @@
 | Cascaded 74xx165  | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/simulations/Cascaded_74xx165/result/tb_cascaded_74xx165.png) |
 | Cascaded 74xx595  | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/simulations/Cascaded_74xx595/result/tb_cascaded_74xx595.png) |
 
+### Quality assessment
+| Module                    | Status | Result Link |
+|---------------------------|--------|-------------|
+| Design                    | ✅     | Change controller schematic |
+| Setter_Getter             | ✅     | No change |
+| Window_Comparator         | ✅     | Added extra test-inputs |
+| Cascaded 74xx165          | ✅     | No change |
+| Cascaded 74xx595          | ✅     | No change |
+
 ### Proof of Concept (PoC)
-| Module                   | Status | Result Link |
+| Module                    | Status | Result Link |
 |---------------------------|--------|-------------|
 | Setter_Getter             | ⬜     | - |
 | Window_Comparator         | ⬜     | - |
