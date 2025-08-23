@@ -23,8 +23,8 @@
 ### Quality assessment
 | Module                    | Status | Result Link |
 |---------------------------|--------|-------------|
-| Design                    | ✅     | Change controller schematic |
-| Setter_Getter             | ✅     | Replace SSR with EMR since DUT has unknown current usage |
+| Design                    | ✅     | Changed controller schematic |
+| Setter_Getter             | ✅     | Replaced SSR with EMR since DUT has unknown current usage |
 | Window_Comparator         | ✅     | Added extra test-inputs |
 | Cascaded 74xx165          | ✅     | No change |
 | Cascaded 74xx595          | ✅     | No change |
@@ -32,6 +32,7 @@
 ### Proof of Concept (PoC)
 | Module                    | Status | Result Link |
 |---------------------------|--------|-------------|
+|                           | ✅     | Parts for POC boards are ordered |
 | Setter_Getter             | ⬜     | - |
 | Window_Comparator         | ⬜     | - |
 | Cascaded 74xx165          | 🔄     | - |
