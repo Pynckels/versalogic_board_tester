@@ -24,7 +24,7 @@
 | Module                    | Status | Result Link |
 |---------------------------|--------|-------------|
 | Design                    | ✅     | Change controller schematic |
-| Setter_Getter             | ✅     | No change |
+| Setter_Getter             | ✅     | Replace SSR with EMR since DUT has unknown current usage |
 | Window_Comparator         | ✅     | Added extra test-inputs |
 | Cascaded 74xx165          | ✅     | No change |
 | Cascaded 74xx595          | ✅     | No change |
