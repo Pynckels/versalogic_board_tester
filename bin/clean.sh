@@ -28,7 +28,7 @@ done
 
 echo "Cleanup: $SOFTWARE_DIR"
 
-cd "$SOFTWARE_DIR"
+cd "$SOFTWARE_DIR/design"
 make clean > /dev/null
 cd "$ORIGINAL_DIR"
 
