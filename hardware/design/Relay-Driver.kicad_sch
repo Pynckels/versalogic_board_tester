@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "65914f4d-bc96-433b-b088-546a1cbfb126")
-	(paper "A5" portrait)
+	(paper "A5")
 	(title_block
 		(title "VersaLogic board tester")
 		(date "2025-08-13")
@@ -1444,7 +1444,7 @@
 	)
 	(text "Prevent\nrelay coil effect\non +12V line"
 		(exclude_from_sim no)
-		(at 94.488 52.832 90)
+		(at 121.158 42.672 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1454,7 +1454,7 @@
 	)
 	(text "4.3 mA"
 		(exclude_from_sim no)
-		(at 54.61 71.628 0)
+		(at 81.28 61.468 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1464,7 +1464,7 @@
 	)
 	(text "NC"
 		(exclude_from_sim no)
-		(at 90.424 88.138 0)
+		(at 117.094 77.978 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1475,7 +1475,7 @@
 	)
 	(text "* If ON = 5V then SIG_IN => SIG_OUT\n  If ON = 0V then SIG_OUT = High-Z (floating)\n  Else            Undefined behaviour (!)\n\n* The two transistor relay driver circuit may be a bit overkill but since\n  it's not known what relay will be used on the production board one is\n  better safe than sorry. The same goes for the decoupling capacitor."
 		(exclude_from_sim no)
-		(at 28.448 165.862 0)
+		(at 90.17 103.632 0)
 		(effects
 			(font
 				(face "Courier")
@@ -1489,7 +1489,7 @@
 	)
 	(text "360Ω @ 12Vdc"
 		(exclude_from_sim no)
-		(at 83.82 74.93 0)
+		(at 110.49 64.77 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1500,7 +1500,7 @@
 	)
 	(text "NO"
 		(exclude_from_sim no)
-		(at 90.424 92.964 0)
+		(at 117.094 82.804 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1511,7 +1511,7 @@
 	)
 	(text "Pull-up when\nNPN is open."
 		(exclude_from_sim no)
-		(at 59.944 45.974 90)
+		(at 86.614 35.814 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1520,42 +1520,42 @@
 		(uuid "f800e2de-9901-4feb-b33b-7714e1d359a2")
 	)
 	(junction
-		(at 74.93 40.64)
+		(at 101.6 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "045a1db9-fc68-46a3-a4df-b63524fd574a")
 	)
 	(junction
-		(at 64.77 52.07)
+		(at 91.44 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19dd4f2b-570c-4006-8039-d8e2d711c7d1")
 	)
 	(junction
-		(at 100.33 69.85)
+		(at 127 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44e9b0e6-6a46-4e7c-9c6e-398a1e05bcd4")
 	)
 	(junction
-		(at 92.71 69.85)
+		(at 119.38 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7119e11-0c6b-4e34-8c71-6e65dfeb617d")
 	)
 	(junction
-		(at 74.93 69.85)
+		(at 101.6 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa8dbebc-696c-4a53-8f1a-5ab828052262")
 	)
 	(no_connect
-		(at 91.44 86.36)
+		(at 118.11 76.2)
 		(uuid "b6c15cbc-0d4a-4c3a-b461-a9fab17a37e4")
 	)
 	(wire
 		(pts
-			(xy 91.44 78.74) (xy 92.71 78.74)
+			(xy 118.11 68.58) (xy 119.38 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1565,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 38.1) (xy 74.93 40.64)
+			(xy 101.6 27.94) (xy 101.6 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1575,7 +1575,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 78.74) (xy 92.71 69.85)
+			(xy 119.38 68.58) (xy 119.38 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1585,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 41.91) (xy 64.77 40.64)
+			(xy 91.44 31.75) (xy 91.44 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1595,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 88.9) (xy 76.2 88.9)
+			(xy 68.58 78.74) (xy 102.87 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1605,7 +1605,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 40.64) (xy 74.93 40.64)
+			(xy 91.44 30.48) (xy 101.6 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1615,7 +1615,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 52.07) (xy 64.77 54.61)
+			(xy 91.44 41.91) (xy 91.44 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1625,7 +1625,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 74.93) (xy 64.77 77.47)
+			(xy 91.44 64.77) (xy 91.44 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1635,7 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 69.85) (xy 44.45 69.85)
+			(xy 68.58 59.69) (xy 71.12 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1645,7 +1645,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 100.33 40.64)
+			(xy 127 39.37) (xy 127 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1655,7 +1655,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 57.15) (xy 74.93 69.85)
+			(xy 101.6 46.99) (xy 101.6 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1665,7 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 54.61) (xy 100.33 69.85)
+			(xy 127 44.45) (xy 127 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1675,7 +1675,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 78.74) (xy 76.2 78.74)
+			(xy 101.6 68.58) (xy 102.87 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1685,7 +1685,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 40.64) (xy 74.93 46.99)
+			(xy 101.6 30.48) (xy 101.6 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1695,7 +1695,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 91.44) (xy 91.44 91.44)
+			(xy 130.81 81.28) (xy 118.11 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1705,7 +1705,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 69.85) (xy 87.63 69.85)
+			(xy 119.38 59.69) (xy 114.3 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1715,7 +1715,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 69.85) (xy 92.71 69.85)
+			(xy 127 59.69) (xy 119.38 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1725,7 +1725,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 62.23) (xy 64.77 64.77)
+			(xy 91.44 52.07) (xy 91.44 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1735,7 +1735,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 78.74) (xy 74.93 69.85)
+			(xy 101.6 68.58) (xy 101.6 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1745,7 +1745,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 69.85) (xy 80.01 69.85)
+			(xy 101.6 59.69) (xy 106.68 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1755,7 +1755,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 49.53) (xy 64.77 52.07)
+			(xy 91.44 39.37) (xy 91.44 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1765,7 +1765,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 69.85) (xy 57.15 69.85)
+			(xy 78.74 59.69) (xy 83.82 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1775,7 +1775,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 52.07) (xy 67.31 52.07)
+			(xy 91.44 41.91) (xy 93.98 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1785,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 72.39) (xy 100.33 69.85)
+			(xy 127 62.23) (xy 127 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1795,7 +1795,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 40.64) (xy 74.93 40.64)
+			(xy 127 30.48) (xy 101.6 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1805,7 +1805,7 @@
 	)
 	(hierarchical_label "CLOSE"
 		(shape input)
-		(at 41.91 69.85 180)
+		(at 68.58 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1816,7 +1816,7 @@
 	)
 	(hierarchical_label "SIG_OUT"
 		(shape output)
-		(at 104.14 91.44 0)
+		(at 130.81 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1827,7 +1827,7 @@
 	)
 	(hierarchical_label "SIG_IN"
 		(shape input)
-		(at 41.91 88.9 180)
+		(at 68.58 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1838,7 +1838,7 @@
 	)
 	(symbol
 		(lib_id "Relay:G5LE-1")
-		(at 83.82 83.82 270)
+		(at 110.49 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1846,7 +1846,7 @@
 		(dnp no)
 		(uuid "00eee99e-517d-4a00-970f-93f30764b185")
 		(property "Reference" "K8501"
-			(at 78.486 72.644 90)
+			(at 105.156 62.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +1855,7 @@
 			)
 		)
 		(property "Value" "G5LE-1"
-			(at 81.534 95.25 90)
+			(at 108.204 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +1864,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5LE-1"
-			(at 82.55 95.25 0)
+			(at 109.22 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +1874,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.omron.com/ecb/products/pdf/en-g5le.pdf"
-			(at 83.82 83.82 0)
+			(at 110.49 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +1883,7 @@
 			)
 		)
 		(property "Description" "Omron G5LE relay, Miniature Single Pole, SPDT, 10A"
-			(at 83.82 83.82 0)
+			(at 110.49 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,7 +2209,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 45.72 0)
+		(at 91.44 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2217,7 +2217,7 @@
 		(dnp no)
 		(uuid "03695da4-aa79-44c6-9c57-db668da9c7c9")
 		(property "Reference" "R8501"
-			(at 65.024 42.164 0)
+			(at 91.694 32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2226,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 64.77 45.466 90)
+			(at 91.44 35.306 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +2234,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 62.992 45.72 90)
+			(at 89.662 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +2243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 45.72 0)
+			(at 91.44 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +2252,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 45.72 0)
+			(at 91.44 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2569,7 +2569,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 77.47 0)
+		(at 91.44 67.31 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2578,7 +2578,7 @@
 		(dnp no)
 		(uuid "46cb09ca-4393-4c12-84d3-0f1d16113bcf")
 		(property "Reference" "#PWR08503"
-			(at 64.77 83.82 0)
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +2587,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 80.264 0)
+			(at 91.44 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 77.47 0)
+			(at 91.44 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 77.47 0)
+			(at 91.44 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 77.47 0)
+			(at 91.44 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,7 +2928,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 58.42 0)
+		(at 91.44 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2936,7 +2936,7 @@
 		(dnp no)
 		(uuid "4f701422-22ac-42fb-9eea-2da455564675")
 		(property "Reference" "R8502"
-			(at 65.024 54.864 0)
+			(at 91.694 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,7 +2945,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 64.77 58.166 90)
+			(at 91.44 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,7 +2953,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 62.992 58.42 90)
+			(at 89.662 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +2962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 58.42 0)
+			(at 91.44 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,7 +2971,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 58.42 0)
+			(at 91.44 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +3288,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
-		(at 100.33 52.07 0)
+		(at 127 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3296,7 +3296,7 @@
 		(dnp no)
 		(uuid "71edfb99-c381-4ba0-ac66-f1f40a1bb885")
 		(property "Reference" "C8501"
-			(at 101.092 50.038 0)
+			(at 127.762 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3305,7 +3305,7 @@
 			)
 		)
 		(property "Value" "2200µF"
-			(at 100.838 54.102 0)
+			(at 127.508 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +3314,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 100.33 52.07 0)
+			(at 127 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3323,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 52.07 0)
+			(at 127 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +3332,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
-			(at 100.33 52.07 0)
+			(at 127 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3649,7 +3649,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 72.39 0)
+		(at 127 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3657,7 +3657,7 @@
 		(dnp no)
 		(uuid "7e8c9de7-e0fc-46dc-ac21-828ea0d108f6")
 		(property "Reference" "#PWR08502"
-			(at 100.33 78.74 0)
+			(at 127 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3666,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 75.184 0)
+			(at 127 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +3675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 72.39 0)
+			(at 127 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,7 +3684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 72.39 0)
+			(at 127 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,7 +3693,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 72.39 0)
+			(at 127 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +4007,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3906")
-		(at 72.39 52.07 0)
+		(at 99.06 41.91 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4016,7 +4016,7 @@
 		(dnp no)
 		(uuid "8bf6ceb8-e910-4d2b-a005-d30e31cb6c85")
 		(property "Reference" "Q8501"
-			(at 75.184 48.514 0)
+			(at 101.854 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,7 +4025,7 @@
 			)
 		)
 		(property "Value" "2N3906"
-			(at 75.438 55.626 0)
+			(at 102.108 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +4034,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 77.47 50.165 0)
+			(at 104.14 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +4045,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-			(at 72.39 52.07 0)
+			(at 99.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +4055,7 @@
 			)
 		)
 		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-			(at 72.39 52.07 0)
+			(at 99.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,7 +4375,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 74.93 38.1 0)
+		(at 101.6 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4383,7 +4383,7 @@
 		(dnp no)
 		(uuid "8f159e71-2b93-46d6-90ef-e53c1be7978b")
 		(property "Reference" "#PWR08501"
-			(at 74.93 41.91 0)
+			(at 101.6 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4392,7 +4392,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 74.93 35.306 0)
+			(at 101.6 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +4401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 38.1 0)
+			(at 101.6 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,7 +4410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 38.1 0)
+			(at 101.6 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +4419,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 74.93 38.1 0)
+			(at 101.6 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4733,7 +4733,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 62.23 69.85 0)
+		(at 88.9 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4741,7 +4741,7 @@
 		(dnp no)
 		(uuid "ad32f6d0-27a0-4733-b9e2-127e9211f345")
 		(property "Reference" "Q8502"
-			(at 65.024 66.294 0)
+			(at 91.694 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +4750,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 65.024 73.152 0)
+			(at 91.694 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4759,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 67.31 71.755 0)
+			(at 93.98 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,7 +4770,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 62.23 69.85 0)
+			(at 88.9 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,7 +4780,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 62.23 69.85 0)
+			(at 88.9 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5100,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:D")
-		(at 83.82 69.85 0)
+		(at 110.49 59.69 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5109,7 +5109,7 @@
 		(dnp no)
 		(uuid "db7f5268-7a47-4bb5-9c8e-0922826ebcea")
 		(property "Reference" "D8501"
-			(at 81.661 67.183 0)
+			(at 108.331 57.023 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5118,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 85.0899 72.39 90)
+			(at 111.7599 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +5128,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
-			(at 83.82 69.85 0)
+			(at 110.49 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +5137,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_DIODEs"
-			(at 83.82 69.85 0)
+			(at 110.49 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,7 +5146,7 @@
 			)
 		)
 		(property "Description" "Diode for simulation or PCB"
-			(at 83.82 69.85 0)
+			(at 110.49 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +5155,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 83.82 69.85 0)
+			(at 110.49 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5164,7 +5164,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 69.85 0)
+			(at 110.49 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,7 +5173,7 @@
 			)
 		)
 		(property "Sim.Params" "rs=50m cjo=10p"
-			(at 83.82 69.85 0)
+			(at 110.49 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,7 +5490,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 69.85 90)
+		(at 74.93 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5498,7 +5498,7 @@
 		(dnp no)
 		(uuid "dfe4b33a-a968-44c7-843c-65eb6d7a9845")
 		(property "Reference" "R8504"
-			(at 51.054 68.58 90)
+			(at 77.724 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +5507,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 48.006 69.85 90)
+			(at 74.676 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +5515,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 48.26 71.628 90)
+			(at 74.93 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5524,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 69.85 0)
+			(at 74.93 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5533,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 69.85 0)
+			(at 74.93 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

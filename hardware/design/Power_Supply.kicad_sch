@@ -2989,9 +2989,9 @@
 		)
 		(uuid "b7ab13ef-4319-409a-8037-61f5c223e771")
 	)
-	(text "+12V - Supply for operational amplifiers       => min 1A   available\n +6V - Supply for board under test             => min 1A   available\n +5V - Supply for controller and logic signals => min 1A   available\n +4V - Voltage to test for floating signals    => max 10mA needed\n +2V - Voltage to test for floating signals    => max 10mA needed\n -6V - Voltage to test for board inverse logic => max 10mA needed\n-12V - Supply for board under test             => min 1A   available"
+	(text "+12V - Supply for operational amplifiers       => min 1A   available\n +6V - Supply for board under test             => min 1A   available\n +5V - Supply for controller and logic signals => min 1A   available\n +4V - Voltage to test for floating signals    => max 10mA needed\n +2V - Voltage to test for floating signals    => max 10mA needed\n -6V - Voltage to test for board inverse logic => max 10mA needed\n-12V - Supply for board under test             => min 1A   available\n\nAlternative power supply: PC power supply can provide +12V +5V -12V.\n                          +6V can be generated with an L7806\n                          +4V, +2V, -6V can be generated with voltage divider"
 		(exclude_from_sim no)
-		(at 89.916 252.984 0)
+		(at 90.678 244.602 0)
 		(effects
 			(font
 				(face "Courier")
@@ -6360,7 +6360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000µF"
+		(property "Value" "2200µF"
 			(at 93.218 117.602 0)
 			(effects
 				(font
@@ -7251,7 +7251,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000µF"
+		(property "Value" "2200µF"
 			(at 104.648 107.442 0)
 			(effects
 				(font
@@ -8253,7 +8253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000µF"
+		(property "Value" "2200µF"
 			(at 93.218 107.442 0)
 			(effects
 				(font
@@ -8888,7 +8888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000µF"
+		(property "Value" "2200µF"
 			(at 104.648 117.602 0)
 			(effects
 				(font
