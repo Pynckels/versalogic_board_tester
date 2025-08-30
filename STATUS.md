@@ -32,10 +32,11 @@
 ### Proof of Concept (PoC)
 | Module                    | Status | Result Link |
 |---------------------------|--------|-------------|
-|                           | ✅     | Parts for POC boards are ordered |
+|                           | ✅     | Parts for POC boards are ordered  |
+|                           | ✅     | Parts for POC boards are received |
 | Setter_Getter             | ⬜     | - |
-| Window_Comparator         | ⬜     | - |
-| Cascaded 74xx165          | 🔄     | - |
+| Window_Comparator         | 🔄     | Breadboard in preparation |
+| Cascaded 74xx165          | ⬜     | - |
 | Cascaded 74xx595          | ⬜     | - |
 | Integration of all modules| ⬜     | - |
 
