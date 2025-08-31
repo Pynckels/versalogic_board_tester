@@ -24,9 +24,9 @@
       <name>J1</name>
       <alpha>127</alpha>
       <points>
-        <point x="3.6" y="1.9"/>
-        <point x="3.6" y="3.7"/>
-        <point x="3.6" y="2.8"/>
+        <point x="6.4" y="1.9"/>
+        <point x="6.4" y="3.7"/>
+        <point x="6.4" y="2.8"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -43,9 +43,9 @@
       <name>J2</name>
       <alpha>127</alpha>
       <points>
-        <point x="3.7" y="3.8"/>
-        <point x="3.7" y="2.0"/>
-        <point x="3.7" y="2.9"/>
+        <point x="6.3" y="3.8"/>
+        <point x="6.3" y="2.0"/>
+        <point x="6.3" y="2.9"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -536,10 +536,10 @@
       <name>W2</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="7.1" y="0.4"/>
-        <point x="6.4" y="0.4"/>
-        <point x="6.9" y="1.9"/>
-        <point x="6.3" y="1.9"/>
+        <point x="7.0" y="0.4"/>
+        <point x="6.3" y="0.4"/>
+        <point x="6.8" y="1.9"/>
+        <point x="6.2" y="1.9"/>
       </controlPoints2>
       <color hex="ff0000"/>
       <pointCount>FOUR</pointCount>
@@ -554,10 +554,10 @@
       <name>W4</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="7.1" y="0.5"/>
-        <point x="6.5" y="0.5"/>
-        <point x="7.0" y="2.0"/>
-        <point x="6.3" y="2.0"/>
+        <point x="7.0" y="0.5"/>
+        <point x="6.4" y="0.5"/>
+        <point x="6.9" y="2.0"/>
+        <point x="6.2" y="2.0"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -696,7 +696,7 @@
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>LAB2</name>
-      <point x="7.2" y="0.4"/>
+      <point x="7.1" y="0.4"/>
       <text>+5V</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -706,18 +706,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB3</name>
-      <point x="7.2" y="0.5"/>
+      <point x="7.1" y="0.5"/>
       <text>GND</text>
-      <font name="Dialog.plain" size="14" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.misc.Label>
-      <name>LAB9</name>
-      <point x="3.4" y="2.9"/>
-      <text>+1V3</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -766,7 +756,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB14</name>
-      <point x="6.5" y="3.7"/>
+      <point x="6.7" y="3.7"/>
       <text>+5V</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -776,7 +766,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB15</name>
-      <point x="6.5" y="3.8"/>
+      <point x="6.7" y="3.8"/>
       <text>GND</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -964,6 +954,26 @@
       <name>LAB25</name>
       <point x="5.5" y="2.7"/>
       <text>D</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB9</name>
+      <point x="6.7" y="1.9"/>
+      <text>+5V</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB26</name>
+      <point x="6.7" y="2.0"/>
+      <text>GND</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
