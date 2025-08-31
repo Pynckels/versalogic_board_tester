@@ -5,7 +5,7 @@
 	(uuid "089f60be-ff73-4a85-aea6-2d9ffb548530")
 	(paper "A5" portrait)
 	(title_block
-		(title "Cascaded_74xx165 - Proof of concept")
+		(title "Cascaded 74xx165 - Proof of concept")
 		(date "2025-08-31")
 		(rev "1.0.&lpha")
 		(comment 1 "Copyright (c) 2025 by Filip Pynckels & Robin Pynckels")
@@ -1879,7 +1879,7 @@
 				(exclude_from_sim no)
 				(at 27.94 162.56 0)
 				(size 12.7 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type color)
@@ -1901,7 +1901,7 @@
 				(exclude_from_sim no)
 				(at 40.64 162.56 0)
 				(size 93.98 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type color)
@@ -1923,7 +1923,7 @@
 				(exclude_from_sim no)
 				(at 27.94 165.1 0)
 				(size 12.7 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -1941,7 +1941,7 @@
 				(exclude_from_sim no)
 				(at 40.64 165.1 0)
 				(size 93.98 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -1959,7 +1959,7 @@
 				(exclude_from_sim no)
 				(at 27.94 167.64 0)
 				(size 12.7 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -1977,7 +1977,7 @@
 				(exclude_from_sim no)
 				(at 40.64 167.64 0)
 				(size 93.98 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -1995,7 +1995,7 @@
 				(exclude_from_sim no)
 				(at 27.94 170.18 0)
 				(size 12.7 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -2013,7 +2013,7 @@
 				(exclude_from_sim no)
 				(at 40.64 170.18 0)
 				(size 93.98 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -2031,7 +2031,7 @@
 				(exclude_from_sim no)
 				(at 27.94 172.72 0)
 				(size 12.7 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -2049,7 +2049,7 @@
 				(exclude_from_sim no)
 				(at 40.64 172.72 0)
 				(size 93.98 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -2067,7 +2067,7 @@
 				(exclude_from_sim no)
 				(at 27.94 175.26 0)
 				(size 12.7 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -2085,7 +2085,7 @@
 				(exclude_from_sim no)
 				(at 40.64 175.26 0)
 				(size 93.98 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -2103,7 +2103,7 @@
 				(exclude_from_sim no)
 				(at 27.94 177.8 0)
 				(size 12.7 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -2121,7 +2121,7 @@
 				(exclude_from_sim no)
 				(at 40.64 177.8 0)
 				(size 93.98 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
