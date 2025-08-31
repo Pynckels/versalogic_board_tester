@@ -1794,7 +1794,7 @@
 				(exclude_from_sim no)
 				(at 90.17 102.87 0)
 				(size 10.16 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type color)
@@ -1816,7 +1816,7 @@
 				(exclude_from_sim no)
 				(at 100.33 102.87 0)
 				(size 15.24 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type color)
@@ -1838,7 +1838,7 @@
 				(exclude_from_sim no)
 				(at 90.17 105.41 0)
 				(size 10.16 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -1856,7 +1856,7 @@
 				(exclude_from_sim no)
 				(at 100.33 105.41 0)
 				(size 15.24 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -1874,7 +1874,7 @@
 				(exclude_from_sim no)
 				(at 90.17 107.95 0)
 				(size 10.16 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -1892,7 +1892,7 @@
 				(exclude_from_sim no)
 				(at 100.33 107.95 0)
 				(size 15.24 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -1910,7 +1910,7 @@
 				(exclude_from_sim no)
 				(at 90.17 110.49 0)
 				(size 10.16 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -1928,7 +1928,7 @@
 				(exclude_from_sim no)
 				(at 100.33 110.49 0)
 				(size 15.24 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -1946,7 +1946,7 @@
 				(exclude_from_sim no)
 				(at 90.17 113.03 0)
 				(size 10.16 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -1964,7 +1964,7 @@
 				(exclude_from_sim no)
 				(at 100.33 113.03 0)
 				(size 15.24 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -1982,7 +1982,7 @@
 				(exclude_from_sim no)
 				(at 90.17 115.57 0)
 				(size 10.16 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
@@ -2000,7 +2000,7 @@
 				(exclude_from_sim no)
 				(at 100.33 115.57 0)
 				(size 15.24 2.54)
-				(margins 0.508 0.508 0 0)
+				(margins 0.508 0.762 0 0)
 				(span 1 1)
 				(fill
 					(type none)
