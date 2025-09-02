@@ -1,9 +1,9 @@
 # Project Status
 
 ## Legend
-- ✅ Done  
-- 🔄 In Progress  
-- ⬜ To Do  
+- ✅ Done
+- 🔄 In Progress
+- ⬜ To Do
 
 ## Hardware
 
@@ -36,8 +36,8 @@
 |                           | ✅     | Parts for POC boards are received |
 | Setter_Getter             | ⬜     | - |
 | Window_Comparator         | 🔄     | Breadboard in preparation |
-| Cascaded 74xx165          | ⬜     | - |
-| Cascaded 74xx595          | ⬜     | - |
+| Cascaded 74xx165          | 🔄     | Breadboard in preparation |
+| Cascaded 74xx595          | 🔄     | Breadboard in preparation |
 | Integration of all modules| ⬜     | - |
 
 ### Next
