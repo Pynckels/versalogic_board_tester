@@ -6,3 +6,7 @@
 # hardware/simulations/Cascaded_74xx595
 *.gtkw
 *.vcd
+
+# software/proofs_of_concept/Cascaded_74xx165
+# software/proofs_of_concept/Cascaded_74xx595
+.theia

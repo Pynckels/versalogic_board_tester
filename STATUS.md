@@ -32,12 +32,10 @@
 ### Proof of Concept (PoC)
 | Module                    | Status | Result Link |
 |---------------------------|--------|-------------|
-|                           | ✅     | Parts for POC boards are ordered  |
-|                           | ✅     | Parts for POC boards are received |
 | Setter_Getter             | ⬜     | - |
 | Window_Comparator         | 🔄     | Breadboard in preparation |
 | Cascaded 74xx165          | 🔄     | Breadboard in preparation |
-| Cascaded 74xx595          | 🔄     | Breadboard in preparation |
+| Cascaded 74xx595          | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Cascaded_74xx595/result/Cascaded_74xx595_output.png) |
 | Integration of all modules| ⬜     | - |
 
 ### Next
@@ -56,7 +54,7 @@
 | Module                   | Status | Result Link |
 |---------------------------|--------|-------------|
 | Cascaded 74xx165          | 🔄     | - |
-| Cascaded 74xx595          | ⬜     | - |
+| Cascaded 74xx595          | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Cascaded_74xx595/result/Cascaded_74xx595_output.png) |
 | Integration of all modules| ⬜     | - |
 
 ### Next
