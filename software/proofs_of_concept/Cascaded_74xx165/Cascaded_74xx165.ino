@@ -8,7 +8,7 @@
  *
  * Description:
  *   This program tests two cascaded 74xx165 IC's and the Cascaded_74xx165
- *   class by shifting serial data out of the last 74xx165. The parallel input
+ *   class by regIng serial data out of the last 74xx165. The parallel input
  *   is set with jumper wires on the breadboard. The serial output is visualized
  *   by this program.
  *
@@ -21,6 +21,38 @@
  *   modifying.
  */
 
+#include "Cascaded_74xx165.h"
+
+/**
+ * @brief Instance of Cascaded_74xx165 reading multiple shift registers.
+ * 
+ * This object manages 2 cascaded 74xx165 shift registers.
+ * 
+ * @param 2   Number of shift registers in cascade.
+ * @param 13  Data pin      (QH)      connected to the first shift register.
+ * @param 11  Clock pin     (CLK)     used for regIng data.
+ * @param 12  Clock Inhibit (CLK_INH) used to enable/disable regIng.
+ * @param 10  Load pin      (SH/~LD)  for latching parallel inputs.
+ */
+Cascaded_74xx165 regIn(2, 13, 11, 12, 10);
+
+/**
+ * @brief  Print a byte as 8 bits
+ *
+ * The byte will be printed from most significant bit to least
+ * significant bit. Then one trailing space will be printed.
+ *
+ * @param  b  byte to print
+ * @retval none
+ */
+
+void printByte(uint8_t b)
+{
+    for (int i=0;i<8;i++)
+        Serial.print ("01" [bitRead(b,7-i)]);
+    Serial.print(" ");
+}
+
 /**
  * @brief  Setup entry point of the program.
  *
@@ -32,6 +64,8 @@
 
 void setup()
 {
+    Serial.begin(115200);
+    regIn.begin();
 }
 
 /**
@@ -48,4 +82,17 @@ void setup()
 
 void loop()
 {
+    uint8_t val;
+
+    regIn.readInputs();
+
+    for (uint8_t r = 0; r < 2; r++)
+    {
+        val = regIn.getByte(r);
+        printByte(val);
+    }
+    Serial.println();
+
+    while (Serial.available() == 0) {}
+    while (Serial.available()) Serial.read();
 }

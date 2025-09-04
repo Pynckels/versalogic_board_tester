@@ -34,7 +34,7 @@
 |---------------------------|--------|-------------|
 | Setter_Getter             | ⬜     | - |
 | Window_Comparator         | 🔄     | Breadboard in preparation |
-| Cascaded 74xx165          | 🔄     | Breadboard in preparation |
+| Cascaded 74xx165          | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Cascaded_74xx165/result/Cascaded_74xx165_output.png) |
 | Cascaded 74xx595          | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Cascaded_74xx595/result/Cascaded_74xx595_output.png) |
 | Integration of all modules| ⬜     | - |
 
@@ -53,7 +53,7 @@
 ### Proof of Concept (PoC)
 | Module                   | Status | Result Link |
 |---------------------------|--------|-------------|
-| Cascaded 74xx165          | 🔄     | - |
+| Cascaded 74xx165          | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Cascaded_74xx165/result/Cascaded_74xx165_output.png) |
 | Cascaded 74xx595          | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Cascaded_74xx595/result/Cascaded_74xx595_output.png) |
 | Integration of all modules| ⬜     | - |
 

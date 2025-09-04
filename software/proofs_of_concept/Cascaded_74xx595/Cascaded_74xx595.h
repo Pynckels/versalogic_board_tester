@@ -8,7 +8,7 @@
  *
  * Description:
  *   This class is the interface between the program logic and one or more
- *   cascaded 74xx595 shift registers.
+ *   cascaded 74xx595 shift out registers.
  *
  * License:
  *   References the licenses used in:
@@ -22,19 +22,20 @@
 #include <Arduino.h>
 
 
-class Cascaded_74xx595 {
+class Cascaded_74xx595
+{
 
     public:
 
         /**
         * @brief Construct a new Cascaded_74xx595 object
         * @param numChips  Number of cascaded 74xx595 chips.
-        * @param dataPin   Arduino pin connected to SER (serial data input).
-        * @param clockPin  Arduino pin connected to SRCLK (shift register clock).
-        * @param latchPin  Arduino pin connected to RCLK (latch clock).
-        * @param oePin     Arduino pin connected to OE (output enable, active LOW). 
+        * @param dataPin   Pin connected to SER (serial data input).
+        * @param clockPin  Pin connected to SRCLK (shift register clock).
+        * @param latchPin  Pin connected to RCLK (latch clock).
+        * @param oePin     Pin connected to OE (output enable, active LOW). 
         *                  Pass 255 if not used (default).
-        * @param srclrPin  Arduino pin connected to SRCLR (shift register clear, active LOW).
+        * @param srclrPin  Pin connected to SRCLR (shift register clear, active LOW).
         *                  Pass 255 if not used (default).
         */
         Cascaded_74xx595(uint8_t numChips, uint8_t dataPin, uint8_t clockPin, uint8_t latchPin, uint8_t oePin = 255, uint8_t srclrPin = 255);
@@ -88,5 +89,5 @@ class Cascaded_74xx595 {
         uint8_t _oePin;
         uint8_t _srclrPin;
 
-        uint8_t* _buffer;  // internal shadow buffer
+        uint8_t* _buffer;                                           // internal shadow buffer
 };
