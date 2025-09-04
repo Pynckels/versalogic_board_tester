@@ -1,14 +1,14 @@
 /*
- * file    Cascaded_74xx595.cpp
- * project VersaLogic Board Tester
- * brief   Code for the Cascaded_74xx595 class
- * author  Filip Pynckels & Robin Pynckels
- * version 1.0.alpha
- * date    2025-09-03
+ * @file    Cascaded_74xx595.cpp
+ * @project VersaLogic Board Tester
+ * @brief   Code for the Cascaded_74xx595 class
+ * @author  Filip Pynckels & Robin Pynckels
+ * @version 1.0.alpha
+ * @date    2025-09-03
  *
  * Description:
  *   This class is the interface between the program logic and one or more
- *   cascaded 74xx595 shift registers.
+ *   cascaded 74xx595 shift out registers.
  *
  * License:
  *   References the licenses used in:
@@ -55,7 +55,7 @@ void Cascaded_74xx595::begin()
 
 void Cascaded_74xx595::clear()
 {
-    for (uint8_t i = 0; i < _numChips; i++) {
+    for (uint8_t i=0; i<_numChips; i++) {
         _buffer[i] = 0;
     }
     update();
@@ -94,7 +94,7 @@ void Cascaded_74xx595::setOutput(uint16_t index, bool value)
 void Cascaded_74xx595::update()
 {
     digitalWrite(_latchPin, LOW);
-    for (int8_t i = _numChips - 1; i >= 0; i--) {                   // Shift out from last to first chip
+    for (int8_t i=_numChips-1; 0<=i; i--) {                   // Shift out from last to first chip
         shiftOut(_dataPin, _clockPin, MSBFIRST, _buffer[i]);
     }
     digitalWrite(_latchPin, HIGH);
@@ -103,7 +103,7 @@ void Cascaded_74xx595::update()
 
 void Cascaded_74xx595::writeBytes(const uint8_t* data)
 {
-    for (uint8_t i = 0; i < _numChips; i++) {
+    for (uint8_t i=0; i<_numChips; i++) {
         _buffer[i] = data[i];
     }
 }

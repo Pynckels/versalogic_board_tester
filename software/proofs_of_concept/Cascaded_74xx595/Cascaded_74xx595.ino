@@ -26,7 +26,19 @@
 
 #include "Cascaded_74xx595.h"
 
-Cascaded_74xx595 regs(2, 9, 12, 11, 10, 13);                        // 2 chips, data=9, clock=12, latch=11, OE=10, SRCLR=13
+/**
+ * @brief Instance of Cascaded_74xx595 writing to multiple shift registers.
+ * 
+ * This object manages 2 cascaded 74xx595 shift registers.
+ * 
+ * @param 2  Number of shift registers in cascade.
+ * @param 9  Data pin          (SER)   connected to the first shift register.
+ * @param 12 Clock pin         (SRCLK) connected to the shift registers.
+ * @param 11 Latch pin         (RCLK)  for updating outputs.
+ * @param 10 Output Enable pin (OE)    (optional, if used in the library).
+ * @param 13 Master Reset pin  (SRCLR) (optional, if used in the library).
+ */
+Cascaded_74xx595 regOut(2, 9, 12, 11, 10, 13);
 
 /**
  * @brief  Setup entry point of the program.
@@ -36,11 +48,10 @@ Cascaded_74xx595 regs(2, 9, 12, 11, 10, 13);                        // 2 chips, 
  * @param  none
  * @retval none
  */
-
 void setup()
 {
-    regs.begin();
-    regs.enableOutput(true);                                        // make sure outputs are active
+    regOut.begin();
+    regOut.enableOutput(true);                                        // make sure outputs are active
 }
 
 /**
@@ -54,20 +65,19 @@ void setup()
  * @note   The logic in this function must yield regularly to give the
  *         underlaying code a chance to execute.
  */
-
 void loop()
 {
     for (int i=1; i<16; i++) {
-        regs.clear();
-        regs.setOutput(i, HIGH);
-        regs.update();
+        regOut.clear();
+        regOut.setOutput(i, HIGH);
+        regOut.update();
         delay(500);
     }
 
-    for (int i=14; -1<i; i--) {
-        regs.clear();
-        regs.setOutput(i, HIGH);
-        regs.update();
+    for (int i=14; 0<=i; i--) {
+        regOut.clear();
+        regOut.setOutput(i, HIGH);
+        regOut.update();
         delay(500);
     }
 }
