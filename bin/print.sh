@@ -31,7 +31,7 @@ pandoc -t pdf -V papersize:a4 -o $tmp_dir/LICENSE.pdf -f markdown $project_dir/L
 # Print KiCad schematics to pdf
 kicad-cli sch export pdf                                    \
     --output $tmp1                                          \
-    --pages 1,2,3,4,5,6,7,8,9,10,11,48                      \
+    --pages 1,2,3,4,5,6,7,8,9,10,11,48,85                   \
     --exclude-pdf-property-popups                           \
     --exclude-pdf-hierarchical-links                        \
     --exclude-pdf-metadata                                  \
