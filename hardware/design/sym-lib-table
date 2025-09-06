@@ -9,4 +9,5 @@
   (lib (name "LM393")(type "KiCad")(uri "${KIPRJMOD}/libraries/LM393/LM393P.kicad_sym")(options "")(descr "Dual comparator"))
   (lib (name "Power")(type "KiCad")(uri "${KIPRJMOD}/libraries/Power/Power.kicad_sym")(options "")(descr "Power symbols"))
   (lib (name "VO1400")(type "KiCad")(uri "${KIPRJMOD}/libraries/VO1400/VO1400.kicad_sym")(options "")(descr ""))
+  (lib (name "RP438012")(type "KiCad")(uri "${KIPRJMOD}/libraries/RP438012/RP438012.kicad_sym")(options "")(descr "Relay single pole single throw, Coil 12V 44mA, Switching 250V 12A"))
 )

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RP438012")(type "KiCad")(uri "${KIPRJMOD}/libraries/RP438012/RP438012.kicad_sym")(options "")(descr "Relay SPST"))
+)
