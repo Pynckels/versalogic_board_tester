@@ -34,15 +34,17 @@
 |---------------------------|--------|-------------|
 | Cascaded 74xx165  (165)   | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Cascaded_74xx165/result/Cascaded_74xx165_output.png) |
 | Cascaded 74xx595  (595)   | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Cascaded_74xx595/result/Cascaded_74xx595_output.png) |
-| Integration WiCo & 165    | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Window_Comparator/result/Window_Comparator_74xx165_output.txt) |
 | Relay_Driver      (ReDr)  | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Relay_Driver/result/Relay_Driver_output.png) |
-| Setter_Getter     (SeGe)  | 🔄     | - |
+| Setter_Getter     (SeGe)  | ✅     | [Result 1](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Setter_Getter/result/Getter_output.png), [Result 2](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Setter_Getter/result/Setter_output.png), [Result 3](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Setter_Getter/result/Inverter_output.png) |
 | Window_Comparator (WiCo)  | ✅     | [Result 1](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Window_Comparator/result/Window_Comparator_output_input.png), [Result 2](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Window_Comparator/result/Window_Comparator_output_floating.png) |
+| Integration WiCo & 165    | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Window_Comparator/result/Window_Comparator_74xx165_output.txt) |
+| Integration SeGe & 165    | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Setter_Getter/result/Getter_74xx165_output.png) |
+| Integration SeGe & 595    | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Setter_Getter/result/Setter_74xx165_output.png) |
 
 ### Next
 | Task                       | Status | Result Link |
 |----------------------------|--------|-------------|
-| Final schematic            | 🔄    | - |
+| Final schematic            | 🔄    | Review in progress |
 | PCB design                 | ⬜    | - |
 
 ## Software
@@ -57,7 +59,7 @@
 |---------------------------|--------|-------------|
 | Cascaded 74xx165          | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Cascaded_74xx165/result/Cascaded_74xx165_output.png) |
 | Cascaded 74xx595          | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Cascaded_74xx595/result/Cascaded_74xx595_output.png) |
-| Integration of all modules| ⬜     | - |
+| Integration of all modules| 🔄     | - |
 
 ### Next
 | Task                                  | Status | Result Link |

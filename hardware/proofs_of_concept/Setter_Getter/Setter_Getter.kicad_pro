@@ -250,7 +250,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Window_Comparator.kicad_pro",
+    "filename": "Setter_Getter.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -396,14 +396,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": "Window_Comparator.wbk"
-    },
     "page_layout_descr_file": "kicad-embed://Pynckels.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -418,7 +410,7 @@
   },
   "sheets": [
     [
-      "c7eb2e00-c6d4-4780-8b23-8721efc40155",
+      "089f60be-ff73-4a85-aea6-2d9ffb548530",
       "Root"
     ]
   ],

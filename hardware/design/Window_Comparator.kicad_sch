@@ -4478,14 +4478,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 113.03 67.3099 90)
+		(property "Value" "1N4148"
+			(at 110.744 68.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
