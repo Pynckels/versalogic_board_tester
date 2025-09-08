@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP BS250P
-D P-channel MOSFET,BS250P 0.23A 45V
-K
-F https://www.diodes.com/assets/Datasheets/BS250P.pdf
-$ENDCMP
-#
-#End Doc Library

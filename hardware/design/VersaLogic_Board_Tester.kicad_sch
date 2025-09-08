@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "VersaLogic board tester")
-		(date "2025-08-13")
-		(rev "1.0.alpha")
+		(date "2025-09-09")
+		(rev "1.0")
 		(comment 1 "Copyright (c) 2025 by Filip Pynckels & Robin Pynckels")
 	)
 	(lib_symbols
@@ -283,6 +283,87 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 153.67 111.252)
+		(end 154.94 112.522)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 0.2509803922)
+		)
+		(uuid 0056ff99-146a-46d0-be95-4cd0933461c0)
+	)
+	(rectangle
+		(start 153.67 113.792)
+		(end 154.94 115.062)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.2509803922)
+		)
+		(uuid 2b0e12f4-4ed8-49cd-b656-7f78743960c5)
+	)
+	(rectangle
+		(start 153.67 116.332)
+		(end 154.94 117.602)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 0 0.2509803922)
+		)
+		(uuid 5c5bf43f-67a2-41fb-ae56-a7dbd9e3cf31)
+	)
+	(text "Contains analog signals (+12V to -12V)"
+		(exclude_from_sim no)
+		(at 156.21 116.84 0)
+		(effects
+			(font
+				(face "Courier")
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "24c474ea-9691-4bb0-bb51-03d840d7d7ff")
+	)
+	(text "TTL logic"
+		(exclude_from_sim no)
+		(at 156.21 114.3 0)
+		(effects
+			(font
+				(face "Courier")
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "829ba92a-bd03-4d6b-aa49-8de5725147fd")
+	)
+	(text "Power rails"
+		(exclude_from_sim no)
+		(at 156.21 111.76 0)
+		(effects
+			(font
+				(face "Courier")
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d4355d6e-c307-4a7f-a19d-a3bed192dda2")
 	)
 	(junction
 		(at 158.75 58.42)
@@ -1131,7 +1212,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 255 0 0.2510)
 		)
 		(uuid "008afea6-305a-4126-a59c-97955da029ac")
 		(property "Sheetname" "Direction"
@@ -1234,7 +1315,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 255 0 0.2510)
 		)
 		(uuid "0e6fd212-2ed8-40ca-ae66-7ad4dad8c736")
 		(property "Sheetname" "Shift-out Signal"
@@ -1337,7 +1418,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 0 0.2510)
 		)
 		(uuid "1f791eb9-4676-4703-9abb-c24cf4545191")
 		(property "Sheetname" "Board Connector"
@@ -1390,7 +1471,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 255 0 0.2510)
 		)
 		(uuid "495d6ae2-9683-42e7-b6ec-7e013fbfc3d9")
 		(property "Sheetname" "Shift-in Floating"
@@ -1483,7 +1564,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 255 0 0.2510)
 		)
 		(uuid "6007366f-36c0-43ad-abe8-14945e79cd13")
 		(property "Sheetname" "Shift-in Signal"
@@ -1576,7 +1657,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 255 0 0.2510)
 		)
 		(uuid "86c8382c-3570-45bc-95ce-4e153d69ad64")
 		(property "Sheetname" "Controller"
@@ -1819,7 +1900,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 0 0.2510)
 		)
 		(uuid "adda023d-d1ed-43b8-a853-bfe5f4e68804")
 		(property "Sheetname" "Signal Setter-Getter"
@@ -1902,7 +1983,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 0 0 0.2510)
 		)
 		(uuid "b6a5a2c2-1f9c-4b30-82fa-d8eb5e8dad20")
 		(property "Sheetname" "Power Supply"
@@ -1945,7 +2026,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 0 0.2510)
 		)
 		(uuid "eabf6e7e-a825-4e60-a6e7-816a5077065d")
 		(property "Sheetname" "Floating Signal Tester"

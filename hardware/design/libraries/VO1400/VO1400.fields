@@ -1,4 +1,0 @@
-Sim.Library     ${KIPRJMOD}/libraries/VO1400/VO1400.spice
-Sim.Name        VO1400
-Sim.Device      SUBCKT
-Sim.Pins        1=A 2=C 3=S1 4=S2

@@ -6,8 +6,8 @@
 	(paper "A4" portrait)
 	(title_block
 		(title "VersaLogic board tester")
-		(date "2025-08-13")
-		(rev "1.0.alpha")
+		(date "2025-09-09")
+		(rev "1.0")
 		(comment 1 "Copyright (c) 2025 by Filip Pynckels & Robin Pynckels")
 	)
 	(lib_symbols

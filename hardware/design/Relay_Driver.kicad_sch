@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "VersaLogic board tester")
-		(date "2025-08-13")
-		(rev "1.0.alpha")
+		(date "2025-09-09")
+		(rev "1.0")
 		(comment 1 "Copyright (c) 2025 by Filip Pynckels & Robin Pynckels")
 	)
 	(lib_symbols
@@ -1057,7 +1057,7 @@
 		)
 		(uuid "753d88d4-824e-4e3a-948e-8d3ffe6e679b")
 	)
-	(text "* If CLOSE = 5V then SIG_OUT <= SIG_IN\n  If CLOSE = 0V then SIG_OUT <= High-Z (floating)\n  Else               Undefined behaviour (!)"
+	(text "If CLOSE = 5V then SIG_IN => SIG_OUT\nIf CLOSE = 0V then High-Z => SIG_OUT (floating)\nElse               Undefined behaviour (!)"
 		(exclude_from_sim no)
 		(at 90.424 113.03 0)
 		(effects

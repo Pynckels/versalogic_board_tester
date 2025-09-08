@@ -1,4 +1,0 @@
-Sim.Library     ${KIPRJMOD}/libraries/BS170.spice
-Sim.Name        BS170
-Sim.Device      SUBCKT
-Sim.Pins        1=D 2=G 3=S

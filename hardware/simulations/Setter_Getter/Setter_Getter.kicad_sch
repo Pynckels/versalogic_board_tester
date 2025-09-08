@@ -2591,7 +2591,7 @@
 		)
 		(uuid "5b7a3519-6d06-48a7-82b2-9cd76bed3b89")
 	)
-	(text "Default component because the\nspice model of the ADG417 has\na flaw when changing IN during\nruntime.\nThe default switch is active high,\nthe ADG417 is active low."
+	(text "Default component because\nsometimes a switch is just\na switch."
 		(exclude_from_sim no)
 		(at 161.036 52.324 0)
 		(effects

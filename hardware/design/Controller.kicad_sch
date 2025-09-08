@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "VersaLogic board tester")
-		(date "2025-08-13")
-		(rev "1.0.alpha")
+		(date "2025-09-09")
+		(rev "1.0")
 		(comment 1 "Copyright (c) 2025 by Filip Pynckels & Robin Pynckels")
 	)
 	(lib_symbols
@@ -1481,9 +1481,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "All control signals for the shift buffers are available for the controller\nto give the program maximal options to alter the functioning of the hardware.\n\nThe program logic can be as follows:\n\n  1. Shift in the floating pins (bit 4..40). See \"Floating Signal Tester\" schematic\n     for description of the bit values.\n\n  2. Use winner takes all algorithm to decide which board type is inserted in\n     the board connector.\n\n  3. Set direction of the board pins conform to the board that is plugged in.\n\n  3. Loop through test scenarios: per scenario:\n       - Set output pin values (TTL logic)\n       - Read and verify input pin values (TTL logic)\n\nIf the controller has to be reprogrammed frequently, it is advisable to use\na ZIF socket.\n\nThe UART pins use TTL logic (5V, 0V)."
+	(text "All control signals for the shift buffers are available to the controller\nto give the program maximal options to alter the functioning of the hardware.\n\nThe program logic can be as follows:\n\n  1. Shift in the \"floating\" pins (bit 4..40). See \"Floating Signal Tester\" schematic\n     for description of the bit values.\n\n  2. Use winner takes all algorithm to decide which board type is inserted in\n     the board connector (on the basis of floating pins and non-floating pins).\n\n  3. Set direction of the board pins conform to the board that is plugged in.\n\n  3. Loop through test scenarios: per scenario:\n       - Set output pin values (TTL logic)\n       - Read and verify input pin values (TTL logic)\n\nIf the controller has to be reprogrammed frequently, it is advisable to use\na ZIF socket.\n\nThe UART pins use TTL logic (5V, 0V)."
 		(exclude_from_sim no)
-		(at 108.204 74.168 0)
+		(at 105.41 74.422 0)
 		(effects
 			(font
 				(face "Courier")

@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "VersaLogic board tester")
-		(date "2025-08-13")
-		(rev "1.0.alpha")
+		(date "2025-09-09")
+		(rev "1.0")
 		(comment 1 "Copyright (c) 2025 by Filip Pynckels & Robin Pynckels")
 	)
 	(lib_symbols
@@ -1430,9 +1430,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Input  - Tri-state (0V, -12V, floating)\n         Can be pulled up to +6V when short circuit on board under test\n\nOutput - 5V in case input is floating (due to open collector comparator and pull-up resistor)\n         GND in case input is not floating (due to current limited clamping diode)"
+	(text "Input  - Tri-state (0V, -12V, floating)\n         Can be pulled up to +6V when there is short circuit on the board under test\n\nOutput - 5V in case input is floating (due to open collector comparator and pull-up resistor)\n         GND in case input is not floating (due to current limited clamping diode)"
 		(exclude_from_sim no)
-		(at 90.678 107.95 0)
+		(at 90.932 108.458 0)
 		(effects
 			(font
 				(face "Courier")
@@ -1664,7 +1664,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 45.72) (xy 92.71 48.26)
+			(xy 92.71 44.45) (xy 92.71 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1804,7 +1804,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 55.88) (xy 92.71 57.15)
+			(xy 92.71 54.61) (xy 92.71 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2097,7 +2097,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 92.71 45.72 0)
+		(at 92.71 44.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2106,7 +2106,7 @@
 		(dnp no)
 		(uuid "07fcc05f-164b-4042-8506-b76b54a0242c")
 		(property "Reference" "#PWR01104"
-			(at 92.71 49.53 0)
+			(at 92.71 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,7 +2115,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 92.71 42.926 0)
+			(at 92.71 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 45.72 0)
+			(at 92.71 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 45.72 0)
+			(at 92.71 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +2142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 92.71 45.72 0)
+			(at 92.71 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +2521,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 52.07 0)
+		(at 92.71 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2529,7 +2529,7 @@
 		(dnp no)
 		(uuid "10465b0a-493b-40d3-8780-612e5be92b9b")
 		(property "Reference" "R1102"
-			(at 92.964 48.514 0)
+			(at 92.964 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2538,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 92.71 52.07 90)
+			(at 92.71 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2546,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 90.932 52.07 90)
+			(at 90.932 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 52.07 0)
+			(at 92.71 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2564,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 52.07 0)
+			(at 92.71 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6,14 +6,14 @@
 	(paper "A5" portrait)
 	(title_block
 		(title "VersaLogic board tester")
-		(date "2025-08-13")
-		(rev "1.0.alpha")
+		(date "2025-09-09")
+		(rev "1.0")
 		(comment 1 "Copyright (c) 2025 by Filip Pynckels & Robin Pynckels")
 	)
 	(lib_symbols)
-	(text "Input  - Tri-state bus (0V, -12V, floating)\n         Can be pulled up to +6V when short circuit on board under test\n\nOutput - Digital bus (TTL logic): 5V  (true)  in case input is floating\n                                  GND (false) in case output is not floating"
+	(text "Input  - Tri-state bus (0V, -12V, floating)\n         Can be pulled up to +6V when there is short circuit on the board\n         under test\n\nOutput - Digital bus (TTL logic): 5V  (true)  in case input is floating\n                                  GND (false) in case output is not floating"
 		(exclude_from_sim no)
-		(at 29.972 170.434 0)
+		(at 29.972 168.148 0)
 		(effects
 			(font
 				(face "Courier")

@@ -6,8 +6,8 @@
 	(paper "A4" portrait)
 	(title_block
 		(title "VersaLogic board tester")
-		(date "2025-08-13")
-		(rev "1.0.alpha")
+		(date "2025-09-09")
+		(rev "1.0")
 		(comment 1 "Copyright (c) 2025 by Filip Pynckels & Robin Pynckels")
 	)
 	(lib_symbols
@@ -2989,9 +2989,9 @@
 		)
 		(uuid "b7ab13ef-4319-409a-8037-61f5c223e771")
 	)
-	(text "+12V - Supply for operational amplifiers       => min 1A   available\n +6V - Supply for board under test             => min 1A   available\n +5V - Supply for controller and logic signals => min 1A   available\n +4V - Voltage to test for floating signals    => max 10mA needed\n +2V - Voltage to test for floating signals    => max 10mA needed\n -6V - Voltage to test for board inverse logic => max 10mA needed\n-12V - Supply for board under test             => min 1A   available\n\nAlternative power supply: PC power supply can provide +12V +5V -12V.\n                          +6V can be generated with an L7806\n                          +4V, +2V, -6V can be generated with voltage divider"
+	(text "+12V - Supply for operational amplifiers       => min 1A   available\n +6V - Supply for board under test             => min 1A   available\n +5V - Supply for controller and logic signals => min 1A   available\n +4V - Voltage to test for floating signals    => max 10mA needed\n +2V - Voltage to test for floating signals    => max 10mA needed\n -6V - Voltage to test for board inverse logic => max 10mA needed\n-12V - Supply for board under test             => min 1A   available\n\nAlternative power supply: PC power supply can provide +12V +5V -12V.\n                          +6V can be generated with an L7806\n                          +4V, +2V, -6V can be generated with voltage divider\n\nNote: The pins +12V, +6V, +5V, +4V, +2V, GND, -6V, -12V are global pins. When\n      dividing the PCB in multiple parts the necessary power supply pins have\n      to be passed to the different boards into which the PCB is divided.\n      One method to do this is to create a \"power bus\" that passes all power\n      supply rails to the different PCB's."
 		(exclude_from_sim no)
-		(at 90.678 244.602 0)
+		(at 90.424 231.902 0)
 		(effects
 			(font
 				(face "Courier")

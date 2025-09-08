@@ -1,13 +1,7 @@
 (sym_lib_table
   (version 7)
   (lib (name "74HCxx")(type "KiCad")(uri "${KIPRJMOD}/libraries/74HCxx/74HCxx.kicad_sym")(options "")(descr "74HC165, 74HC595"))
-  (lib (name "ADG417")(type "KiCad")(uri "${KIPRJMOD}/libraries/ADG417/ADG417.kicad_sym")(options "")(descr ""))
-  (lib (name "BS170")(type "KiCad")(uri "${KIPRJMOD}/libraries/BS170/BS170.kicad_sym")(options "")(descr "Field Effect Transistor - N-Channel, Enhancement Mode"))
-  (lib (name "BS250P")(type "KiCad")(uri "${KIPRJMOD}/libraries/BS250P/BS250P.kicad_sym")(options "")(descr "Field Effect Transistor - P-Channel, Enhancement Mode"))
-  (lib (name "G3VM-41AY1")(type "KiCad")(uri "${KIPRJMOD}/libraries/G3VM-41AY1/G3VM-41AY1.kicad_sym")(options "")(descr ""))
-  (lib (name "ISO1211")(type "KiCad")(uri "${KIPRJMOD}/libraries/ISO1211D/ISO1211D.kicad_sym")(options "")(descr "Isolated 24-V  to 60-V digital input receiver"))
   (lib (name "LM393")(type "KiCad")(uri "${KIPRJMOD}/libraries/LM393/LM393P.kicad_sym")(options "")(descr "Dual comparator"))
   (lib (name "Power")(type "KiCad")(uri "${KIPRJMOD}/libraries/Power/Power.kicad_sym")(options "")(descr "Power symbols"))
-  (lib (name "VO1400")(type "KiCad")(uri "${KIPRJMOD}/libraries/VO1400/VO1400.kicad_sym")(options "")(descr ""))
   (lib (name "RP438012")(type "KiCad")(uri "${KIPRJMOD}/libraries/RP438012/RP438012.kicad_sym")(options "")(descr "Relay single pole single throw, Coil 12V 44mA, Switching 250V 12A"))
 )
