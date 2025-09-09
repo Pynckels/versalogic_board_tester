@@ -44,7 +44,7 @@
 ### Next
 | Task                       | Status | Result Link |
 |----------------------------|--------|-------------|
-| Final schematic            | 🔄    | Review in progress |
+| Final schematic            | ✅    | [Result](https://github.com/Pynckels/versalogic_board_tester/tree/main/hardware/design) |
 | PCB design                 | ⬜    | - |
 
 ## Software
@@ -55,13 +55,14 @@
 | Initial development setup   | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/tree/main/software/design) |
 
 ### Proof of Concept (PoC)
-| Module                   | Status | Result Link |
-|---------------------------|--------|-------------|
-| Cascaded 74xx165          | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Cascaded_74xx165/result/Cascaded_74xx165_output.png) |
-| Cascaded 74xx595          | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Cascaded_74xx595/result/Cascaded_74xx595_output.png) |
-| Integration of all modules| 🔄     | - |
+| Module           | Status | Result Link |
+|------------------|--------|-------------|
+| Cascaded 74xx165 | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Cascaded_74xx165/result/Cascaded_74xx165_output.png) |
+| Cascaded 74xx595 | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/blob/main/hardware/proofs_of_concept/Cascaded_74xx595/result/Cascaded_74xx595_output.png) |
+| Final modules    | ✅     | [Result](https://github.com/Pynckels/versalogic_board_tester/tree/main/software/design) |
 
 ### Next
-| Task                                  | Status | Result Link |
-|---------------------------------------|--------|-------------|
-| Controller software for Versalogic board | ⬜   | - |
+| Task                                     | Status | Result Link |
+|------------------------------------------|--------|-------------|
+| Controller software for Versalogic board | ⬜     | - |
+

@@ -3,8 +3,8 @@
  * @project VersaLogic Board Tester
  * @brief   Main program for Versalogic Board Tester (AVR)
  * @author  Filip Pynckels & Robin Pynckels
- * @version 1.0.alpha
- * @date    2025-08-13
+ * @version 1.0
+ * @date    2025-09-09
  *
  * Description:
  *   This program controls the board tester hardware by interfacing with
@@ -25,33 +25,31 @@
  *   modifying.
  */
 
-#include <avr/io.h>
-#include <util/delay.h>
+#include <Arduino.h>
 
+#include "Cascaded_74xx165.h"
+#include "Cascaded_74xx595.h"
 
 /**
- * @brief  Main entry point of the program.
+ * @brief  One-time entry point.
  *
- * Initializes hardware peripherals and enters the main loop.
- * This loop can be extended to implement board detection, TTL testing,
- * and shift buffer control according to the detected board type.
+ * This function is called once at startup by the Arduino runtime.
+ * Use it to configure pins, initialize UART/Serial, and set up shift
+ * registers or other peripherals.
+ */
+void setup() {
+}
+
+/**
+ * @brief Main application loop.
+ *
+ * Called repeatedly after `setup()` finishes.
  *
  * @param  none
- * @retval int  Standard return code (0)
+ * @retval none
  *
  * @note   Currently contains a placeholder delay. Replace with actual logic.
  */
-
-int main(void) {
-    // TODO: Initialize hardware peripherals here
-    // e.g., shiftBufferInit(); uartInit(); pinSetup();
-
-    while (1) {
-        // TODO: Insert main board test loop here
-        // Example: read floating pins, detect board type, run test scenarios
-
-        _delay_ms(500);                                                         // Doing nothing… forever.
-    }
-
-    return 0;                                                                   // Dead code. If executed, please contact a priest
+void loop() {
+    delay(500);
 }
