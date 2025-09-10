@@ -6,6 +6,8 @@ The Data620 is constructed from standard electronic components—resistors, capa
 
 This project aims to develop such a testing device, enabling systematic diagnostics and repair of Data620 PCBs.
 
+<img src="Versalogic_Board_Tester.png" alt="Project screenprints" width="400"/>
+
 ---
 
 ## Current Status

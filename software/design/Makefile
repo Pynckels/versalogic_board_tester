@@ -118,19 +118,19 @@ OBJS            = $(patsubst $(SRC_DIR)/%.c,$(BUILD_DIR)/%.o,$(shell find $(SRC_
 all: $(BUILD_DIR)/$(PROJECT)_$(VERSION).hex
 
 # ------------------------------------------------------------------------------
+# Creating HEX file
+# ------------------------------------------------------------------------------
+$(BUILD_DIR)/$(PROJECT)_$(VERSION).hex: $(BUILD_DIR)/$(PROJECT)_$(VERSION).elf
+	@echo "[HEX ] $@"
+	@$(OBJCOPY) -O ihex -R .eeprom $< $@
+
+# ------------------------------------------------------------------------------
 # Linking
 # ------------------------------------------------------------------------------
 $(BUILD_DIR)/$(PROJECT)_$(VERSION).elf: $(OBJS)
 	@echo "[LINK] $@"
 	@mkdir -p $(dir $@)
 	@$(CC) $(LDFLAGS) $^ -o $@
-
-# ------------------------------------------------------------------------------
-# Creating HEX file
-# ------------------------------------------------------------------------------
-$(BUILD_DIR)/$(PROJECT)_$(VERSION).hex: $(BUILD_DIR)/$(PROJECT)_$(VERSION).elf
-	@echo "[HEX ] $@"
-	@$(OBJCOPY) -O ihex -R .eeprom $< $@
 
 # ------------------------------------------------------------------------------
 # Compiling C source
