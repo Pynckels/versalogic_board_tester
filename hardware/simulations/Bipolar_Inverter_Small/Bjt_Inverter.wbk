@@ -1,0 +1,46 @@
+{
+  "last_sch_text_sim_command": ".tran 1m 1s",
+  "tabs": [
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 1m 1",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": false,
+      "fixedY1scale": {
+        "max": 6.0,
+        "min": -12.0
+      },
+      "legend": {
+        "x": 530,
+        "y": 51
+      },
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(132, 0, 0)",
+          "signal": "V(BOARD_IN)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(0, 132, 0)",
+          "signal": "V(CTRL_IN)",
+          "trace_type": 257
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 6
+}

@@ -1,0 +1,2 @@
+* 1N4148 SPICE model
+.model D1N4148 D(Is=2.52e-9 N=1.906 Rs=0.568 Cjo=4e-12 M=0.333 Vj=0.75 Bv=100 Ibv=0.1u Tt=4e-9)

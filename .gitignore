@@ -1,6 +1,9 @@
 
-# KiCad - Ignore directories whose name ends with -backups
+# KiCad - Ignore directories whose names end with -backups
 *-backups/
+
+# KiCad - Ignore files whose extentions end with .kicad_prl
+*.kicad_prl
 
 # hardware/simulations/Cascaded_74xx165
 # hardware/simulations/Cascaded_74xx595
