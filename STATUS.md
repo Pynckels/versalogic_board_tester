@@ -4,6 +4,7 @@
 - ✅ Done
 - 🔄 In Progress
 - ⬜ To Do
+- ⏸️ On Hold
 
 ## Hardware
 
@@ -45,7 +46,7 @@
 | Task                       | Status | Result Link |
 |----------------------------|--------|-------------|
 | Final schematic            | ✅    | [Result](https://github.com/Pynckels/versalogic_board_tester/tree/main/hardware/design) |
-| PCB design                 | ⬜    | - |
+| PCB design                 | ⏸️    | Depends on the use of the device |
 
 ## Software
 
@@ -64,5 +65,5 @@
 ### Next
 | Task                                     | Status | Result Link |
 |------------------------------------------|--------|-------------|
-| Controller software for Versalogic board | ⬜     | - |
+| Controller software for Versalogic board | ⏸️     | Depends on the use of the device |
 
